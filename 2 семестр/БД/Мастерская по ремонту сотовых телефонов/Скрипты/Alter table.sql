@@ -1,0 +1,15 @@
+ALTER TABLE Модели_телефонов ADD FOREIGN KEY (ID_Марки) REFERENCES Марки_телефонов(ID_Марки);
+ALTER TABLE Телефоны ADD FOREIGN KEY (ID_Модели) REFERENCES Модели_телефонов(ID_Модели);
+ALTER TABLE Телефоны ADD FOREIGN KEY (ID_Заявки) REFERENCES Заявки(ID_Заявки);
+ALTER TABLE Телефоны ADD FOREIGN KEY (ID_Ячейки) REFERENCES Ячейки(ID_Ячейки);
+ALTER TABLE Заявки ADD FOREIGN KEY (ID_Клиента) REFERENCES Клиенты(ID_Клиента);
+ALTER TABLE Ремонт ADD FOREIGN KEY (ID_Заявки) REFERENCES Заявки(ID_Заявки);
+ALTER TABLE Ремонт ADD FOREIGN KEY (ID_Специалиста) REFERENCES Специалисты(ID_Специалиста);
+ALTER TABLE Секции ADD FOREIGN KEY (ID_Склада) REFERENCES Склад(ID_Склада);
+ALTER TABLE Ячейки ADD FOREIGN KEY (ID_Секции) REFERENCES Секции(ID_Секции);
+ALTER TABLE Запчасти ADD FOREIGN KEY (ID_Ячейки) REFERENCES Ячейки(ID_Ячейки);
+ALTER TABLE Справочник_запчастей ADD FOREIGN KEY (ID_Запчасти) REFERENCES Запчасти(ID_Запчасти);
+ALTER TABLE Справочник_запчастей ADD FOREIGN KEY (ID_Модели) REFERENCES Модели_телефонов(ID_Модели);
+ALTER TABLE Квитанции ADD FOREIGN KEY (ID_Заявки) REFERENCES Заявки(ID_Заявки);
+ALTER TABLE Ремонт_Услуги ADD FOREIGN KEY (ID_Ремонта) REFERENCES Ремонт(ID_Ремонта);
+ALTER TABLE Ремонт_Услуги ADD FOREIGN KEY (ID_Услуги) REFERENCES Услуги(ID_Услуги);

@@ -1,0 +1,3 @@
+SELECT TOP 1 
+FROM Академики
+ORDER BY ФИО DESC;

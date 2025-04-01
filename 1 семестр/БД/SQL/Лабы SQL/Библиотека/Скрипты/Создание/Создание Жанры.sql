@@ -1,0 +1,4 @@
+CREATE TABLE Жанры
+(
+	ID_жанра INT IDENTITY (1,1) PRIMARY KEY
+)

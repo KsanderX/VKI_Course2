@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="Icon.png">
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список дел</h1>
+        <div class="input-group">
+            <input type="text" id="new-task" placeholder="Новый элемент списка">
+            <button class="add_action" id="add-task">Создать</button>
+            <button class="add_action2" id="clear-all">Очистить всё</button>
+        </div>
+        <ol id="task-list">
+           
+        </ol>  
+        <div class ="filters">
+            <a href="#" class="filter-link" data-filters="all">Всё</a>
+            <a href="#" class="filter-link" data-filters="done">Сделано</a>
+            <a href="#" class="filter-link" data-filters="not-done">Не сделано</a>
+        </div>    
+    </div>
+    <footer>Copyright &copy; 2025</footer>
+    <script src="script.js"></script>
+</body>
+</html>

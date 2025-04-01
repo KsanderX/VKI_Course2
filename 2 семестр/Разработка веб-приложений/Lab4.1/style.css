@@ -1,0 +1,56 @@
+/* Общие стили */
+body {
+     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+div.conteiner {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.task {
+    margin-bottom: 20px;
+}
+
+.task-toggle {
+    width: 300px;
+    padding: 10px;
+    background-color: #c304e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+}
+
+.task-toggle:hover {
+    background-color: #0056b3;
+}
+
+.task-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.task-content h3 {
+    margin-top: 0;
+}
+
+.task-content p {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}

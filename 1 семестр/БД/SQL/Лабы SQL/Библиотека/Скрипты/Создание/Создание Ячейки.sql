@@ -1,0 +1,4 @@
+CREATE TABLE ίχεικθ
+(
+	ID_ÿχεικθ INT IDENTITY (1,1) PRIMARY KEY
+)

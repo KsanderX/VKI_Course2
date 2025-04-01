@@ -1,0 +1,4 @@
+G:\Aganivhev2307\2 курс\C# Гаврилов\Lab2\Lab2\obj\Debug\net8.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Aganivhev2307\2 курс\C# Гаврилов\Lab2\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfoInputs.cache
+G:\Aganivhev2307\2 курс\C# Гаврилов\Lab2\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfo.cs
+G:\Aganivhev2307\2 курс\C# Гаврилов\Lab2\Lab2\obj\Debug\net8.0\Lab2.csproj.CoreCompileInputs.cache

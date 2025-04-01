@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" type="png" href="Icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 1</title>
+</head>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+    
+    body{
+            font-family:'Grechen Fuemen', sans-serif;
+            background-color: rgb(59, 59, 59);
+            color: white;
+            display: flex;            
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1{
+            margin: 0 0 20px
+        }
+      
+        
+        p{
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0px;
+            text-align: center;
+        }
+
+    </style>
+<body>
+    <div>
+    <h1>Список дел</h1>
+    <input type="text" placeholder="Новый элемент списка">
+    <button>Создать</button>
+    <button>Очистить всё</button>
+</div>
+
+    <ol>
+        <li><label>
+            <input type="checkbox"> Почесать кошку 
+        </label>
+            <sub class="date">28.08.2023</sub>
+            <button>❌</button>
+        </li>
+        <li>
+            <input type="checkbox">
+            Полить картошку
+            <sub class="date">04.02.2022</sub>
+            <button>❌</button>
+        </li>
+        <li>
+            <input type="checkbox">
+            Сложить в лукошко
+            <sub class="date">14.05.2022</sub>
+            <button>❌</button>
+        </li>
+    </ol>    
+    <p>Copyright &copy; 2025</p>
+</body>
+</html>

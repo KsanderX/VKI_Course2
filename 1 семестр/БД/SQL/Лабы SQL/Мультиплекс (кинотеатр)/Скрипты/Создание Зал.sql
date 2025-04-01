@@ -1,0 +1,3 @@
+CREATE TABLE Зал (
+    ID_Зала INT PRIMARY KEY IDENTITY(1,1),
+    Название NVARCHAR(100) NOT NULL);

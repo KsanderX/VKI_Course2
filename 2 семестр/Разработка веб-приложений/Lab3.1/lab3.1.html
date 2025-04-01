@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Функции JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Функции JavaScript</h1>
+
+        <!-- Задание 1 -->
+        <div class="task">
+            <button class="butt" onclick="toggleTask(1)">Задача 1</button>
+            <div class="content" id="task1">
+                <!-- Задание 1.1 -->
+                <div class="sub-task">
+                    <h3 onclick="toggleSubTask('1_1')">1.1: Реверс числа</h3>
+                    <div class="sub-content" id="subTask1_1">
+                        <input type="number" id="input1_1" placeholder="Введите число">
+                        <button class="but" onclick="runTask1_1()">Выполнить</button>
+                        <div class="output" id="output1_1"></div>
+                    </div>
+                </div>
+
+                <!-- Задание 1.2 -->
+                <div class="sub-task">
+                    <h3 onclick="toggleSubTask('1_2')">1.2: Удаление повторяющихся цифр</h3>
+                    <div class="sub-content" id="subTask1_2">
+                        <input type="number" id="input1_2" placeholder="Введите число">
+                        <button class="but" onclick="runTask1_2()">Выполнить</button>
+                        <div class="output" id="output1_2"></div>
+                    </div>
+                </div>
+
+                <!-- Задание 1.3 -->
+                <div class="sub-task">
+                    <h3 onclick="toggleSubTask('1_3')">1.3: Подсчёт цифр</h3>
+                    <div class="sub-content" id="subTask1_3">
+                        <input type="number" id="input1_3_num" placeholder="Введите число">
+                        <input type="number" id="input1_3_digit" placeholder="Введите цифру">
+                        <button class="but" onclick="runTask1_3()">Выполнить</button>
+                        <div class="output" id="output1_3"></div>
+                    </div>
+                </div>
+
+                <!-- Задание 1.4 -->
+                <div class="sub-task">
+                    <h3 onclick="toggleSubTask('1_4')">1.4: Самая длинная последовательность в двоичном числе</h3>
+                    <div class="sub-content" id="subTask1_4">
+                        <input type="number" id="input1_4_num" placeholder="Введите число">                       
+                        <button  class="but" onclick="runTask1_4()">Выполнить</button>
+                        <div class="output" id="output1_4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Задание 2 -->
+        <div class="task">
+            <button class="butt" onclick="toggleTask(2)">Задача 2</button>
+            <div class="content" id="task2">
+                <!-- Задание 2.1 -->
+                <div class="sub-task">
+                    <h3 onclick="toggleSubTask('2_1')">2.1: Первый неповторяющийся символ</h3>
+                    <div class="sub-content" id="subTask2_1">
+                        <input type="text" id="input2_1" placeholder="Введите строку">
+                        <button class="but" onclick="runTask2_1()">Выполнить</button>
+                        <div class="output" id="output2_1"></div>
+                    </div>
+                </div>
+
+                <!-- Задание 2.2 -->
+                <div class="sub-task">
+                    <h3 onclick="toggleSubTask('2_2')">2.2: Генерация случайной строки</h3>
+                    <div class="sub-content" id="subTask2_2">
+                        <input type="number" id="input2_2" placeholder="Введите длину">
+                        <button class="but"onclick="runTask2_2()">Выполнить</button>
+                        <div class="output" id="output2_2"></div>
+                    </div>
+                </div>
+
+                <!-- Задание 2.3 -->
+                <div class="sub-task">
+                    <h3 onclick="toggleSubTask('2_3')">2.3: Уникальные символы строки</h3>
+                    <div class="sub-content" id="subTask2_3">
+                        <input type="text" id="input2_3" placeholder="Введите строку">
+                        <button class="but" onclick="runTask2_3()">Выполнить</button>
+                        <div class="output" id="output2_3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

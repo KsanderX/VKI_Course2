@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab3\\AVL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DB56F12-788D-4730-BB8C-3E86C47993A0}|AVL.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab3\\avl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DB56F12-788D-4730-BB8C-3E86C47993A0}|AVL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab3\\AVL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab3\\AVL\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAWwHIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:06:29.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
