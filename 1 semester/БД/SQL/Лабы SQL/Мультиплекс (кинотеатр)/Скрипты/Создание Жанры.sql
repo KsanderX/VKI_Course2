@@ -1,3 +1,0 @@
-CREATE TABLE Жанры (
-    ЖанрID INT PRIMARY KEY IDENTITY(1,1),
-    Название NVARCHAR(100));

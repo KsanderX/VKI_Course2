@@ -1,4 +1,0 @@
-CREATE TABLE Ряды
-(
-	ID_ряда INT IDENTITY (1,1) PRIMARY KEY
-)

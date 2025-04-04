@@ -1,4 +1,0 @@
-CREATE TABLE Книги
-(
-	ID_книги INT IDENTITY (1,1) PRIMARY KEY
-)

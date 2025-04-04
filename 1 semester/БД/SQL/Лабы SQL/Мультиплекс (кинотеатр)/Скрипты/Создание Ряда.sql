@@ -1,3 +1,0 @@
-CREATE TABLE Ряд (
-    ID_Ряда INT PRIMARY KEY IDENTITY(1,1),
-    Номер_Ряда NVARCHAR(10) NOT NULL);

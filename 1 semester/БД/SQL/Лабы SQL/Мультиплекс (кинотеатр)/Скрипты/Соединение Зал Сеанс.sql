@@ -1,3 +1,0 @@
-ALTER TABLE Сеанс
-ADD CONSTRAINT FK_Сеанс_Зал
-FOREIGN KEY (ID_Зала) REFERENCES Зал(ID_Зала);

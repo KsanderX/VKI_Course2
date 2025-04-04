@@ -1,6 +1,0 @@
-ALTER TABLE Места
-ADD ID_Ряда INT;
-
-ALTER TABLE Места
-ADD CONSTRAINT FK_Места_Ряд
-FOREIGN KEY (ID_Ряда) REFERENCES Ряд(ID_Ряда)

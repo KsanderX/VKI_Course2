@@ -1,3 +1,0 @@
-CREATE TABLE Места (
-    ID_Места INT PRIMARY KEY IDENTITY(1,1),
-    Номер_Места NVARCHAR(10) NOT NULL);

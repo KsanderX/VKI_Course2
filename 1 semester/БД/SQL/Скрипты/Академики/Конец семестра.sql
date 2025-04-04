@@ -1,1 +1,0 @@
-SELECT DATEDIFF(DAY, GETDATE(), '2024-12-28') AS Конец_Семестра

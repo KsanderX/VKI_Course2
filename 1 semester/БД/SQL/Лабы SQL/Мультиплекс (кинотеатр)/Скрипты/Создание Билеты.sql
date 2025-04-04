@@ -1,3 +1,0 @@
-CREATE TABLE Билеты (
-    ID_Билета INT PRIMARY KEY IDENTITY(1,1),
-    Цена DECIMAL(10, 2) NOT NULL);

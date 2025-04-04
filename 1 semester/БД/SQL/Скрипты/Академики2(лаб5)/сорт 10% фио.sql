@@ -1,6 +1,0 @@
-SELECT TOP 10 PERCENT
-ФИО
-FROM
-Академики
-ORDER BY
-ФИО

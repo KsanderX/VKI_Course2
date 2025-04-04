@@ -1,5 +1,0 @@
-CREATE TABLE Управление_Aganichev
-(
-	ID INT PRIMARY KEY IDENTITY,
-	Вид VARCHAR(20)	
-)
