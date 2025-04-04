@@ -1,0 +1,6 @@
+ALTER TABLE Ряд
+ADD ID_Зала INT;
+
+ALTER TABLE Ряд
+ADD CONSTRAINT FK_Ряд_Зал
+FOREIGN KEY (ID_Зала) REFERENCES Зал(ID_Зала);

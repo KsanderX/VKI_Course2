@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Biblioteka.Models;
+
+public partial class ПопулярныеКниги
+{
+    public int IdПопулярнойКниги { get; set; }
+
+    public int? Fkкниги { get; set; }
+
+    public virtual Книги? FkкнигиNavigation { get; set; }
+}

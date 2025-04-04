@@ -1,0 +1,4 @@
+CREATE TABLE Секции
+(
+	ID_секции INT IDENTITY (1,1) PRIMARY KEY
+)

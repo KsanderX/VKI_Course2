@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2\\Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93AA287B-AB3A-4B12-9541-B452919196BE}|..\\Laba2\\Laba2.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab2\\laba2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2406F8E2-45E9-407F-ADA1-D3F4F1E77A43}|Lab2.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2406F8E2-45E9-407F-ADA1-D3F4F1E77A43}|Lab2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2\\Laba2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Laba2\\Program.cs",
+              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2\\Laba2\\Program.cs",
+              "RelativeToolTip": "..\\Laba2\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T04:21:54.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2\\Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2\\Lab2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T04:00:46.653Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

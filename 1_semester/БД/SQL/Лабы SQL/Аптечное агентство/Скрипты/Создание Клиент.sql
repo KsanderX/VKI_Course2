@@ -1,0 +1,7 @@
+CREATE TABLE Клиенты (
+    ID_Клиента INT PRIMARY KEY IDENTITY(1,1),
+    Имя NVARCHAR(100) NOT NULL,
+    Фамилия NVARCHAR(100) NOT NULL,
+    Адрес NVARCHAR(255) NULL,
+    Телефон NVARCHAR(20) NULL,
+    Email NVARCHAR(100) NULL);

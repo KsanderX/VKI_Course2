@@ -1,0 +1,1 @@
+SELECT DATEDIFF(MONTH,'2005-02-27', GETDATE()) AS КолвоМесяцев
