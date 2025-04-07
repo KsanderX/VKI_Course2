@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генераторы чисел</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Генераторы чисел</h1>
+        <div class="conteiner2">
+        
+         <div class="generator">
+             <h2>1.1) Генератор случайных чисел</h2>
+             <div class="input-group">
+                 <label for="min">Минимум:</label>
+                 <input type="number" id="min" value="1">
+                 <label for="max">Максимум:</label>
+                 <input type="number" id="max" value="100">
+                  <button onclick="generateRandom()">Сгенерировать</button>
+              </div>
+                <div class="result" id="randomResult"></div>
+         </div>
+        
+           <div class="generator">
+              <h2>1.2) Последовательность Падована</h2>
+              <div class="input-group">
+                 <label for="padovanCount">Количество чисел:</label>
+                 <input type="number" id="padovanCount" value="10" min="1">
+                  <button onclick="generatePadovan()">Показать</button>
+              </div>
+              <div class="result" id="padovanResult"></div>
+          </div>
+        
+           <div class="generator">
+              <h2>1.3) Генератор простых чисел</h2>
+              <div class="input-group">
+                  <label for="primeCount">Количество чисел:</label>
+                 <input type="number" id="primeCount" value="10" min="1">
+                 <button onclick="generatePrimes()">Показать</button>
+             </div>
+             <div class="result" id="primeResult"></div>
+          </div>
+        </div>
+        <div class="generator">
+            <h2>2.1) Подсчет букв в строке</h2>
+            <div class="input-group">
+                <input type="text" id="textInput" placeholder="Введите текст">
+                <button onclick="countLetters()">Посчитать</button>
+            </div>
+            <div class="result" id="letterCountResult"></div>
+        </div>
+        
+        <div class="generator">
+            <h2>2.2) N-ное простое число</h2>
+            <div class="input-group">
+                <label for="nthPrime">Позиция (n):</label>
+                <input type="number" id="nthPrime" value="10" min="1">
+                <button onclick="findNthPrime()">Найти</button>
+            </div>
+            <div class="result" id="nthPrimeResult"></div>
+        </div>
+    </div>
+    <script src ="script.js"></script>
+</body>
+</html>
