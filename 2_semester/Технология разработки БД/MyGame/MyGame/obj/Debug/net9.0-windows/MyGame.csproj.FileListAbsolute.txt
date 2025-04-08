@@ -1,7 +1,0 @@
-G:\Aganivhev2307\2 курс\2 семестр\Технология разработки БД\MyGame\MyGame\obj\Debug\net9.0-windows\MyGame.csproj.AssemblyReference.cache
-G:\Aganivhev2307\2 курс\2 семестр\Технология разработки БД\MyGame\MyGame\obj\Debug\net9.0-windows\MyGame.Form1.resources
-G:\Aganivhev2307\2 курс\2 семестр\Технология разработки БД\MyGame\MyGame\obj\Debug\net9.0-windows\MyGame.csproj.GenerateResource.cache
-G:\Aganivhev2307\2 курс\2 семестр\Технология разработки БД\MyGame\MyGame\obj\Debug\net9.0-windows\MyGame.GeneratedMSBuildEditorConfig.editorconfig
-G:\Aganivhev2307\2 курс\2 семестр\Технология разработки БД\MyGame\MyGame\obj\Debug\net9.0-windows\MyGame.AssemblyInfoInputs.cache
-G:\Aganivhev2307\2 курс\2 семестр\Технология разработки БД\MyGame\MyGame\obj\Debug\net9.0-windows\MyGame.AssemblyInfo.cs
-G:\Aganivhev2307\2 курс\2 семестр\Технология разработки БД\MyGame\MyGame\obj\Debug\net9.0-windows\MyGame.csproj.CoreCompileInputs.cache
