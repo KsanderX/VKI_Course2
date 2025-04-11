@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab5.MyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5"
+        mc:Ignorable="d"
+        Title="MyWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnOpenWindowWithMaterials" Click="openMaterials" Content="Открыть материалы" HorizontalAlignment="Left" Margin="263,79,0,0" VerticalAlignment="Top" Height="60" Width="124"/>
+        <Button x:Name="btnOpenWindowWithProducts" Click="openProducts" Content="Открыть продукты" HorizontalAlignment="Left" Margin="429,79,0,0" VerticalAlignment="Top" Height="60" Width="124"/>
+        <Button x:Name="btnOpenWindowWithMaterials2" Click="OpenWindowWithMaterials" Content="Открыть материалы 2" HorizontalAlignment="Left" Margin="263,182,0,0" VerticalAlignment="Top" Height="60" Width="124"/>
+        <Button x:Name="btnOpenWindowWithProducts2" Click="OpenWindowWithProducts" Content="Открыть продукты 2" HorizontalAlignment="Left" Margin="429,182,0,0" VerticalAlignment="Top" Height="60" Width="124"/>
+        <Button Click="btnOpenCustomWindowWithMaterials" Content="Open cast materials" HorizontalAlignment="Left" Margin="263,290,0,0" VerticalAlignment="Top" Height="60" Width="124"/>
+        <Button Click="btnOpenCustomWindowWithProducts" Content="Open cast products" HorizontalAlignment="Left" Margin="429,290,0,0" VerticalAlignment="Top" Height="60" Width="124"/>
+
+    </Grid>
+</Window>
