@@ -1,0 +1,23 @@
+﻿<Window x:Class="Lab6.RequestsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab6"
+        mc:Ignorable="d"
+        Title="RequestsWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Width="500" Height="300">
+            <StackPanel x:Name="RequestsStackPanel">
+            </StackPanel>
+        </ScrollViewer>
+        <TextBox x:Name="tbSelectedId" HorizontalAlignment="Left" Margin="10,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Label Content="Введите Id заявки" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Найти" HorizontalAlignment="Left" Margin="135,34,0,0" VerticalAlignment="Top" Click="BtnFindRequest"/>
+        <Button Content="Статистика" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="75" Height="19" Click="btnStats"/>
+        <Button Content="Я инженер" HorizontalAlignment="Left" Margin="684,371,0,0" VerticalAlignment="Top" Height="28" Width="82" Click="btnOpenEngineeringWindow"/>
+
+
+
+    </Grid>
+</Window>

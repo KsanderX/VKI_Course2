@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Lab6.RequestControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lab6"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Height="500">
+            <Label Background="AliceBlue" Content="Request Id"></Label>
+            <TextBox HorizontalAlignment="Center" Text="{Binding Request.Id}" Width="200" Height="30" FontSize="16" IsReadOnly="True"/>
+            <Label Background="AliceBlue" Content="Equipment Type"></Label>
+            <ComboBox ItemsSource="{Binding EquipmentTypes}" 
+       DisplayMemberPath="Name" 
+       SelectedValuePath="Id" 
+       SelectedValue="{Binding Request.EquipmentTypeId}" 
+       Width="200" 
+       Height="30"/>
+            <Label Background="AliceBlue" Content="Client Full Name"></Label>
+            <TextBox HorizontalAlignment="Center" Text="{Binding Request.ClientFullName}" Width="200" Height="25" FontSize="16"/>
+            <Label Background="AliceBlue" Content="Client Phone Number"></Label>
+            <TextBox Text="{Binding Request.ClientPhoneNumber}" Width="200" Height="30" FontSize="16" />
+            <Label Background="AliceBlue" Content="Equipment Model"></Label>
+            <TextBox Text="{Binding Request.EquipmentModel}" Width="200" Height="30" FontSize="16" />
+            <Label Background="AliceBlue" Content="Problem Description"></Label>
+            <TextBox Text="{Binding Request.ProblemDescription}" Width="200" Height="30" FontSize="16"/>
+            <Label Background="AliceBlue" Content="Master"></Label>
+            <ComboBox ItemsSource="{Binding Masters}"
+        DisplayMemberPath="Name" 
+        SelectedValuePath="Id" 
+        SelectedValue="{Binding Request.MasterId}" 
+        Width="200" 
+        Height="20" />
+            <Label Background="AliceBlue" Content="RequestStatus"></Label>
+            <ComboBox ItemsSource="{Binding RequestStatuses}"
+                DisplayMemberPath="Name" 
+                SelectedValuePath="Id" 
+                SelectedValue="{Binding Request.RequestStatusId}" 
+                Width="200" 
+                Height="20"/>
+            <Button Content="Редактировать" Height="25" Click="btnEdit"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
