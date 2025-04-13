@@ -8,10 +8,11 @@
     --result-bg: #f4f4f4;
     --section-bg: #fafafa;
     --header-bg: #f0f0f0;
+    --bg2-color: #cccccc ;
 }
 
 .dark-theme {
-    --bg-color: #1e1e1e;
+    --bg2-color: #4d4d4d;
     --text-color: #f0f0f0;
     --accent-start: #00c3ff;
     --accent-end: #0077ff;
@@ -20,15 +21,16 @@
     --result-bg: #2e2e2e;
     --section-bg: #252525;
     --header-bg: #333;
+    --bg-color: #1a1a1a;
 }
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
     padding: 20px;
     transition: all 0.3s ease;
+    background-color: var(--bg2-color);
 }
 
 .container {
