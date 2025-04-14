@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab5.MaterialsDataGridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5"
+        mc:Ignorable="d"
+        Title="MaterialsDataGridWindow" Height="450" Width="800">
+
+    <Grid>
+
+        <DataGrid Name="materialsDataGrid" AutoGenerateColumns="False" Margin="202,10,10,28"  ItemsSource="{Binding }">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="*" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="20,41,0,0" VerticalAlignment="Top" Height="79" Width="126" Click="Button_Click"/>
+
+    </Grid>
+</Window>
