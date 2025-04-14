@@ -9,9 +9,17 @@ function toggleSection(header) {
 }
 
 // Задача 1. Таймеры
+
+// Простой счетчик
+let simpleCounterTimeout = null;
 function runSimpleCounter() {
     const n = parseInt(document.getElementById('simpleCounterInput').value);
     const resultDiv = document.getElementById('simpleCounterResult');
+    // Останавливаем предыдущий счетчик, если он был запущен
+    if (simpleCounterTimeout) {
+        clearTimeout(simpleCounterTimeout);
+        simpleCounterTimeout = null;
+    }
     resultDiv.textContent = '';
     
     counter(n, (num) => {
@@ -22,7 +30,9 @@ function runSimpleCounter() {
 function counter(n, callback) {
     callback(n);
     if (n > 0) {
-        setTimeout(() => counter(n - 1, callback), 1000);
+        simpleCounterTimeout = setTimeout(() => counter(n - 1, callback), 1000);
+    } else {
+        simpleCounterTimeout = null;
     }
 }
 
@@ -80,6 +90,7 @@ function stopManagedCounter() {
 }
 
 // Задача 2. Промисы
+//Задержка с промисами
 function runDelay() {
     const n = parseInt(document.getElementById('delayInput').value);
     const resultDiv = document.getElementById('delayResult');
@@ -97,23 +108,40 @@ function delay(N) {
     });
 }
 
+//Счетчик через промисы
+let promiseCounterActive = false;
+
 function runPromiseCounter() {
     const n = parseInt(document.getElementById('promiseCounterInput').value);
     const resultDiv = document.getElementById('promiseCounterResult');
+    
+    // Если счетчик уже работает, не запускаем новый
+    if (promiseCounterActive) {
+        return;
+    }
+    
     resultDiv.textContent = '';
+    promiseCounterActive = true;
     
     promiseCounter(n, (num) => {
         resultDiv.textContent += num + ' ';
+    }).finally(() => {
+        promiseCounterActive = false;
     });
 }
 
 function promiseCounter(n, callback) {
-    callback(n);
-    if (n > 0) {
-        delay(1).then(() => promiseCounter(n - 1, callback));
-    }
+    return new Promise((resolve) => {
+        callback(n);
+        if (n > 0) {
+            delay(1).then(() => promiseCounter(n - 1, callback).then(resolve));
+        } else {
+            resolve();
+        }
+    });
 }
 
+//Первый репозиторий GitHub
 function getFirstRepo() {
     const username = document.getElementById('githubUserInput').value.trim();
     const resultDiv = document.getElementById('githubRepoResult');
@@ -172,7 +200,7 @@ async function getGithubUserAsync() {
     let user;
     
     while (true) {
-        name = prompt("Введите логин?", "octocat");
+        name = prompt("Введите логин?", "KsanderX");
         if (name === null) {
             resultDiv.textContent = 'Отменено пользователем';
             return;

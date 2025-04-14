@@ -33,7 +33,12 @@ body {
     padding: 20px;
     transition: all 0.3s ease;
     background-color: var(--bg2-color);
-    background-image: var(--bg-image) ;
+    background-image: var(--bg-image);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .container {
