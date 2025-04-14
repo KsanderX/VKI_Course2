@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная 5. Часть 1.</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="container">
+        <div class="theme-toggle">
+            <button onclick="toggleTheme()">Переключить тему</button>
+        </div>
+
+        <h1>Асинхронный код в JavaScript</h1>
+
+        <div class="generator">
+            <h2 onclick="toggleSection(this)">Задача 1. Таймеры</h2>
+            <div class="generator-content">
+                <h3>Простой счетчик</h3>
+                <div class="input-group">
+                    <label>Начальное число:</label>
+                    <input type="number" id="simpleCounterInput" value="5" min="0">
+                    <button onclick="runSimpleCounter()">Запустить</button>
+                </div>
+                <div class="result" id="simpleCounterResult"></div>
+                
+                <h3>Управляемый счетчик</h3>
+                <div class="input-group">
+                    <label>Начальное число:</label>
+                    <input type="number" id="managedCounterInput" value="5" min="0">
+                    <button onclick="createManagedCounter()">Создать счетчик</button>
+                </div>
+                <div class="counter-display" id="managedCounterDisplay">Счетчик не активен</div>
+                <div class="counter-controls">
+                    <button id="startBtn" disabled onclick="startManagedCounter()">Start</button>
+                    <button id="pauseBtn" disabled onclick="pauseManagedCounter()">Pause</button>
+                    <button id="stopBtn" disabled onclick="stopManagedCounter()">Stop</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="generator">
+            <h2 onclick="toggleSection(this)">Задача 2. Промисы</h2>
+            <div class="generator-content">
+                <h3>Задержка с промисами</h3>
+                <div class="input-group">
+                    <label>Задержка (сек):</label>
+                    <input type="number" id="delayInput" value="3" min="1">
+                    <button onclick="runDelay()">Выполнить задержку</button>
+                </div>
+                <div class="result" id="delayResult"></div>
+                
+                <h3>Счетчик через промисы</h3>
+                <div class="input-group">
+                    <label>Начальное число:</label>
+                    <input type="number" id="promiseCounterInput" value="5" min="0">
+                    <button onclick="runPromiseCounter()">Запустить</button>
+                </div>
+                <div class="result" id="promiseCounterResult"></div>
+                
+                <h3>Первый репозиторий GitHub</h3>
+                <div class="input-group">
+                    <label>Имя пользователя:</label>
+                    <input type="text" id="githubUserInput" value="octocat">
+                    <button onclick="getFirstRepo()">Получить репозиторий</button>
+                </div>
+                <div class="result" id="githubRepoResult"></div>
+            </div>
+        </div>
+
+        <div class="generator">
+            <h2 onclick="toggleSection(this)">Задача 3. Async/await</h2>
+            <div class="generator-content">
+                <h3>Поиск пользователя GitHub</h3>
+                <div class="input-group">
+                    <button onclick="getGithubUserAsync()">Найти пользователя (async/await)</button>
+                </div>
+                <div class="result" id="githubUserResult"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

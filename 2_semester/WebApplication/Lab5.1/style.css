@@ -119,3 +119,21 @@ button:hover {
     white-space: pre-wrap;
     border-left-color: #00BFFF;
 }
+
+.counter-display {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: var(--result-bg);
+    border-radius: 5px;
+}
+
+.counter-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.counter-controls button {
+    flex: 1;
+}
