@@ -10,14 +10,14 @@ namespace Lab6.Models
     {
         public List<Master> Masters { get; set; }
         public List<RequestStatus> RequestStatuses { get; set; }
-        public List<EquipmentType> EquipmentTypes { get; set; }
+        public List<CarType> CarTypes { get; set; }
         public Request Request { get; set; }
 
         public RequestViewModel()
         {
             LoadMasters();
             LoadRequestsStatus();
-            LoadEquipmentTypes();
+            LoadCarTypes();
             Request = new Request();
         }
 
@@ -37,11 +37,11 @@ namespace Lab6.Models
             }
         }
 
-        private void LoadEquipmentTypes()
+        private void LoadCarTypes()
         {
             using (var context = new MyDbContext())
             {
-                EquipmentTypes = context.EquipmentTypes.ToList();
+                CarTypes = context.CarTypes.ToList();
             }
         }
     }

@@ -41,9 +41,7 @@ namespace Lab6
                 var dateCreate = request.Date;
                 var dateCompletion = request.CompletionDate;
                 var differentDate = dateCompletion - dateCreate;
-                MessageBox.Show($"Отредактировано! Статус заявки: УСПЕШНО");
-
-                string message = $"Отредактировано! Статус заявки: УСПЕШНО, " +
+                string message = $"Отредактировано! Статус заявки: УСПЕШНО \n" +
                          $"Дата выполнения заявки: {differentDate.Days} дней, " +
                          $"{differentDate.Hours} часов, " +
                          $"{differentDate.Minutes} минут.";

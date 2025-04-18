@@ -66,13 +66,13 @@ namespace Lab6.Service
         {
             Dictionary<string, double> faultStatistics = new Dictionary<string, double>();
 
-            int faultCountType1 = _context.Requests.Where(r => r.EquipmentTypeId == 1).Count();
-            int faultCountType2 = _context.Requests.Where(r => r.EquipmentTypeId == 2).Count();
-            int faultCountType3 = _context.Requests.Where(r => r.EquipmentTypeId == 3).Count();
+            int faultCountType1 = _context.Requests.Where(r => r.CarTypeId == 1).Count();
+            int faultCountType2 = _context.Requests.Where(r => r.CarTypeId == 2).Count();
+            int faultCountType3 = _context.Requests.Where(r => r.CarTypeId == 3).Count();
 
-            faultStatistics.Add("Computer", faultCountType1);
-            faultStatistics.Add("Server", faultCountType2);
-            faultStatistics.Add("Printer", faultCountType3);
+            faultStatistics.Add("Sedan", faultCountType1);
+            faultStatistics.Add("Coupe", faultCountType2);
+            faultStatistics.Add("Universal", faultCountType3);
 
             return faultStatistics;
         }

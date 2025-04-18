@@ -33,7 +33,7 @@ namespace Lab6
         {
             var viewModel = (RequestViewModel)this.DataContext; // получаю свою ViewModel
 
-            if (viewModel.Request.MasterId == 0 || viewModel.Request.EquipmentTypeId == 0)
+            if (viewModel.Request.MasterId == 0 || viewModel.Request.CarTypeId == 0)
             {
                 MessageBox.Show("Заполните комбо боксы");
             }
@@ -46,9 +46,9 @@ namespace Lab6
                 MessageBox.Show("Поле 'Телефон клиента' не может быть пустым.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-            else if(string.IsNullOrWhiteSpace(viewModel.Request.EquipmentModel))
+            else if(string.IsNullOrWhiteSpace(viewModel.Request.CarModel))
             {
-                MessageBox.Show("Поле 'Модель оборудования' не может быть пустым.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Поле 'Модель автомобиля' не может быть пустым.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
             else if(string.IsNullOrWhiteSpace(viewModel.Request.ProblemDescription))
@@ -62,11 +62,11 @@ namespace Lab6
                 {
                     ClientFullName = viewModel.Request.ClientFullName,
                     ClientPhoneNumber = viewModel.Request.ClientPhoneNumber,
-                    EquipmentModel = viewModel.Request.EquipmentModel,
+                    CarModel = viewModel.Request.CarModel,
                     ProblemDescription = viewModel.Request.ProblemDescription,
                     MasterId = viewModel.Request.MasterId,
                     RequestStatusId = viewModel.Request.RequestStatusId,
-                    EquipmentTypeId = viewModel.Request.EquipmentTypeId,
+                    CarTypeId = viewModel.Request.CarTypeId,
                     MasterComment = "",
                     Date = DateTime.Now,
                 };

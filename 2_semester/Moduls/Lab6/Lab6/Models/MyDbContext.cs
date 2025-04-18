@@ -13,7 +13,7 @@ namespace Lab6.Models
         public DbSet<Request> Requests { get; set; }
         public DbSet<Master> Masters { get; set; }
         public DbSet<RequestStatus> RequestStatuses { get; set; }
-        public DbSet<EquipmentType> EquipmentTypes { get; set; }
+        public DbSet<CarType> CarTypes { get; set; }
         public MyDbContext()
         {
             Database.EnsureCreated();
@@ -38,10 +38,10 @@ namespace Lab6.Models
                     new RequestStatus { Id = 3, Name = "Completed" }
             );
 
-            modelBuilder.Entity<EquipmentType>().HasData(
-                    new EquipmentType { Id = 1, Name = "Computer" },
-                    new EquipmentType { Id = 2, Name = "Server" },
-                    new EquipmentType { Id = 3, Name = "Printer" }
+            modelBuilder.Entity<CarType>().HasData(
+                    new CarType { Id = 1, Name = "Sedan" },
+                    new CarType { Id = 2, Name = "Coupe" },
+                    new CarType { Id = 3, Name = "Universal" }
             );
         }
 

@@ -9,31 +9,31 @@
     <Grid>
         <StackPanel HorizontalAlignment="Center" Height="500">
             <Label Background="AliceBlue" Content="Request Id"></Label>
-            <TextBox HorizontalAlignment="Center" Text="{Binding Request.Id}" Width="200" Height="30" FontSize="16" IsReadOnly="True"/>
-            <Label Background="AliceBlue" Content="Equipment Type"></Label>
-            <ComboBox ItemsSource="{Binding EquipmentTypes}" 
+            <TextBox IsEnabled="False" HorizontalAlignment="Center" Text="{Binding Request.Id}" Width="200" Height="30" FontSize="16" IsReadOnly="True"/>
+            <Label Background="AliceBlue" Content="Car Type"></Label>
+            <ComboBox IsEnabled="False" ItemsSource="{Binding CarTypes}" 
        DisplayMemberPath="Name" 
        SelectedValuePath="Id" 
-       SelectedValue="{Binding Request.EquipmentTypeId}" 
+       SelectedValue="{Binding Request.CarTypeId}" 
        Width="200" 
        Height="30"/>
             <Label Background="AliceBlue" Content="Client Full Name"></Label>
-            <TextBox HorizontalAlignment="Center" Text="{Binding Request.ClientFullName}" Width="200" Height="25" FontSize="16"/>
+            <TextBox IsEnabled="False" HorizontalAlignment="Center" Text="{Binding Request.ClientFullName}" Width="200" Height="25" FontSize="16"/>
             <Label Background="AliceBlue" Content="Client Phone Number"></Label>
-            <TextBox Text="{Binding Request.ClientPhoneNumber}" Width="200" Height="30" FontSize="16" />
-            <Label Background="AliceBlue" Content="Equipment Model"></Label>
-            <TextBox Text="{Binding Request.EquipmentModel}" Width="200" Height="30" FontSize="16" />
+            <TextBox IsEnabled="False" Text="{Binding Request.ClientPhoneNumber}" Width="200" Height="30" FontSize="16" />
+            <Label Background="AliceBlue" Content="Car Model"></Label>
+            <TextBox IsEnabled="False" Text="{Binding Request.CarModel}" Width="200" Height="30" FontSize="16" />
             <Label Background="AliceBlue" Content="Problem Description"></Label>
-            <TextBox Text="{Binding Request.ProblemDescription}" Width="200" Height="30" FontSize="16"/>
+            <TextBox IsEnabled="False" Text="{Binding Request.ProblemDescription}" Width="200" Height="30" FontSize="16"/>
             <Label Background="AliceBlue" Content="Master"></Label>
-            <ComboBox ItemsSource="{Binding Masters}"
+            <ComboBox IsEnabled="False" ItemsSource="{Binding Masters}"
         DisplayMemberPath="Name" 
         SelectedValuePath="Id" 
         SelectedValue="{Binding Request.MasterId}" 
         Width="200" 
         Height="20" />
-            <Label Background="AliceBlue" Content="RequestStatus"></Label>
-            <ComboBox ItemsSource="{Binding RequestStatuses}"
+            <Label Background="AliceBlue" Content="Request Status"></Label>
+            <ComboBox IsEnabled="False" ItemsSource="{Binding RequestStatuses}"
                 DisplayMemberPath="Name" 
                 SelectedValuePath="Id" 
                 SelectedValue="{Binding Request.RequestStatusId}" 

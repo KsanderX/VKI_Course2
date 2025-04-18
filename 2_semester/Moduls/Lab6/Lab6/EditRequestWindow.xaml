@@ -5,23 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab6"
         mc:Ignorable="d"
-        Title="EditRequestWindow" Height="450" Width="800">
-    <Grid>
-        <StackPanel HorizontalAlignment="Center" Height="500">
-            <TextBox HorizontalAlignment="Center" Text="{Binding Request.Id}" Width="200" Height="30" FontSize="16"/>
-            <Label Background="AliceBlue" Content="Equipment Type"></Label>
-            <ComboBox ItemsSource="{Binding EquipmentTypes}" 
+        Title="EditRequestWindow" Height="614" Width="574">
+    <Grid Margin="0,10,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Left" Margin="182,70,0,35" Width="204" RenderTransformOrigin="0.5,0.5">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.086"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+            <Label Background="AliceBlue" Content="ID"></Label>
+            <TextBox IsEnabled="False" HorizontalAlignment="Center" Text="{Binding Request.Id}" Width="200" Height="30" FontSize="16"/>
+            <Label Background="AliceBlue" Content="Car Type"></Label>
+            <ComboBox ItemsSource="{Binding CarTypes}" 
 DisplayMemberPath="Name" 
 SelectedValuePath="Id" 
-SelectedValue="{Binding Request.EquipmentTypeId}" 
+SelectedValue="{Binding Request.CarTypeId}" 
 Width="200" 
 Height="20"/>
             <Label Background="AliceBlue" Content="Client Full Name"></Label>
             <TextBox HorizontalAlignment="Center" Text="{Binding Request.ClientFullName}" Width="200" Height="25" FontSize="16"/>
             <Label Background="AliceBlue" Content="Client Phone Number"></Label>
             <TextBox Text="{Binding Request.ClientPhoneNumber}" Width="200" Height="30" FontSize="16" />
-            <Label Background="AliceBlue" Content="Equipment Model"></Label>
-            <TextBox Text="{Binding Request.EquipmentModel}" Width="200" Height="30" FontSize="16" />
+            <Label Background="AliceBlue" Content="Car Model"></Label>
+            <TextBox Text="{Binding Request.CarModel}" Width="200" Height="30" FontSize="16" />
             <Label Background="AliceBlue" Content="Problem Description"></Label>
             <TextBox Text="{Binding Request.ProblemDescription}" Width="200" Height="30" FontSize="16"/>
             <Label Background="AliceBlue" Content="Master"></Label>
@@ -38,7 +53,7 @@ Height="20"/>
          SelectedValue="{Binding Request.RequestStatusId}" 
          Width="200" 
          Height="20"/>
-            <Button Content="Сохранить" Click="btnSave"/>
+            <Button Content="Сохранить" Click="btnSave" Height="31"/>
         </StackPanel>
     </Grid>
 </Window>

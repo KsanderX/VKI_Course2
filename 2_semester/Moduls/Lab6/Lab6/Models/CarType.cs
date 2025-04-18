@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab6.Models
 {
-    public class EquipmentType
+    public class CarType
     {
         public int Id { get; set; }
         public string Name { get; set; }

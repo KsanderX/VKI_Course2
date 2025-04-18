@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="RequestsWindow" Height="450" Width="800">
     <Grid>
-        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Width="500" Height="300">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Margin="224,21,235,67">
             <StackPanel x:Name="RequestsStackPanel">
             </StackPanel>
         </ScrollViewer>

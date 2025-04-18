@@ -5,14 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab6"
         mc:Ignorable="d"
-        Title="AuthWindow" Height="450" Width="800">
-    <Grid>
-        <StackPanel HorizontalAlignment="Center" Margin="50">
-            <Label Content="Login" VerticalAlignment="Top" Background="Aqua"/>
-            <TextBox HorizontalAlignment="Left" x:Name="tbLogin" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-            <Label Content="Password" VerticalAlignment="Top" Background="Aqua"/>
-            <TextBox HorizontalAlignment="Left" x:Name="tbPassword"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-            <Button Content="Войти" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Click="Button_Click"/>
+        Title="AuthWindow" Height="245" Width="415">
+    <Grid Margin="0,0,10,31">
+        <StackPanel HorizontalAlignment="Left" Margin="92,27,0,-17" Width="229" RenderTransformOrigin="0.5,0.5">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.057"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+            <Label Content="Login" Margin="5" Width="214"/>
+            <TextBox Text="admin" HorizontalAlignment="Left" x:Name="tbLogin" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Margin="5"/>
+            <Label Content="Password"/>
+            <TextBox Text="admin"  HorizontalAlignment="Left" x:Name="tbPassword"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Margin="5"/>
+            <Button Content="Войти" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Click="Button_Click" Margin="5"/>
         </StackPanel>
     </Grid>
 </Window>

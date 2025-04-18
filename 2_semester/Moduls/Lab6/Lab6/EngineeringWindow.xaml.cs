@@ -41,6 +41,6 @@ namespace Lab6
             //}
         }
 
-       
+
     }
 }
