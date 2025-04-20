@@ -1,6 +1,23 @@
 // Общие функции для управления интерфейсом
 function toggleTheme() {
     document.body.classList.toggle('dark-theme');
+    if (document.body.classList.contains('dark-theme')) {
+        createRain();
+    }
+}
+function createRain() {
+    const rainfield = document.getElementById('rainfield');
+    rainfield.innerHTML = '';
+    const numDrops = 120;
+
+    for (let i = 0; i < numDrops; i++) {
+        const drop = document.createElement('div');
+        drop.className = 'drop';
+        drop.style.left = Math.random() * 100 + 'vw';
+        drop.style.animationDuration = (0.5 + Math.random() * 1.5) + 's';
+        drop.style.animationDelay = Math.random() * 2 + 's';
+        rainfield.appendChild(drop);
+    }
 }
 
 function toggleSection(header) {

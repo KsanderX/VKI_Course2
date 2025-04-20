@@ -9,7 +9,10 @@
     --section-bg: #fafafa;
     --header-bg: #f0f0f0;
     --bg2-color: #cccccc;
-    --bg-image: url('https://avatars.mds.yandex.net/i?id=988a38810c0727c4385cc34031e55662_l-9246694-images-thumbs&n=13');
+    /* --bg-image: url('https://avatars.mds.yandex.net/i?id=988a38810c0727c4385cc34031e55662_l-9246694-images-thumbs&n=13'); */
+    /* --bg-image: url('https://i.playground.ru/i/pix/1397934/image.jpg'); */
+    --bg-image: url('https://images4.alphacoders.com/100/thumb-1920-1002202.jpg');
+
 }
 
 .dark-theme {
@@ -142,3 +145,43 @@ button:hover {
 .counter-controls button {
     flex: 1;
 }
+
+/* Дождь */
+.rainfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.drop {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background: rgba(173, 216, 230, 0.6);
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        top: -20px;
+        opacity: 0.5;
+    }
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+body.dark-theme .rainfield {
+    display: block;
+}
+
+body:not(.dark-theme) .rainfield {
+    display: none;
+}
+
