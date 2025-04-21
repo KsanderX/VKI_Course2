@@ -10,8 +10,7 @@
     --header-bg: #f0f0f0;
     --bg2-color: #cccccc;
     /* --bg-image: url('https://avatars.mds.yandex.net/i?id=988a38810c0727c4385cc34031e55662_l-9246694-images-thumbs&n=13'); */
-    /* --bg-image: url('https://i.playground.ru/i/pix/1397934/image.jpg'); */
-    --bg-image: url('https://images4.alphacoders.com/100/thumb-1920-1002202.jpg');
+    --bg-image: url('https://i.playground.ru/i/pix/1397934/image.jpg');  
 
 }
 
@@ -185,3 +184,7 @@ body:not(.dark-theme) .rainfield {
     display: none;
 }
 
+.weather-controls {
+    display: flex;
+    gap:10px    
+}
