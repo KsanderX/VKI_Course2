@@ -9,9 +9,19 @@ const weatherIcons = {
 
 async function fetchWeather() {
     try {
-        const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=55.03&longitude=82.92&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode,windspeed_10m_max&timezone=auto`);
+        const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=55.03&longitude=82.92&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode,windspeed_10m_max,sunrise,sunset,daylight_duration&hourly=relativehumidity_2m&timezone=auto`); 
         const data = await response.json();
         weatherData = data.daily;
+        
+        weatherData.humidity = [];
+        for (let i = 0; i < data.hourly.time.length; i++) {
+            const date = new Date(data.hourly.time[i]).toLocaleDateString();
+            if (!weatherData.humidity[date]) {
+                weatherData.humidity[date] = [];
+            }
+            weatherData.humidity[date].push(data.hourly.relativehumidity_2m[i]);
+        }
+
         currentIndex = 0;
         showWeather();
     } catch (error) {
@@ -31,13 +41,28 @@ function showWeather() {
         const wind = weatherData.windspeed_10m_max[currentIndex];
         const precipitation = weatherData.precipitation_sum[currentIndex];
         const code = weatherData.weathercode[currentIndex];
-        const icon = weatherIcons[code] || "☀️";
+        const icon = weatherIcons[code] || "⛅";
 
+        const sunrise = new Date(weatherData.sunrise[currentIndex]);
+        const sunset = new Date(weatherData.sunset[currentIndex]);
+        const sunriseTime = sunrise.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
+        const sunsetTime = sunset.toLocaleTimeString('ru-RU', {hour: '2-digit', minute: '2-digit'});
+        
+        const daylightHours = Math.round(weatherData.daylight_duration[currentIndex] / 3600 * 10) / 10;
+        
+        
+        const humidityData = weatherData.humidity[dateString];
+        const avgHumidity = humidityData ? Math.round(humidityData.reduce((a, b) => a + b, 0) / humidityData.length) : 0;
+        
         document.getElementById('weather-icon').innerText = icon;
         document.getElementById('temp').innerText = `${tempMax}° / ${tempMin}°`;
         document.getElementById('date').innerText = dateString;
-        document.getElementById('precipitation').innerText = `Осадки: ${precipitation} мм`;
+        document.getElementById('precipitation').innerText = `Осадки: ${precipitation} мм`;       
         document.getElementById('wind').innerText = `Ветер: ${wind} м/с`;
+        document.getElementById('sunrise').innerText = `Восход: ${sunriseTime}`;
+        document.getElementById('sunset').innerText = `Закат: ${sunsetTime}`;
+        document.getElementById('daylight').innerText = `Долгота дня: ${daylightHours}ч`;
+        
     }
 }
 
