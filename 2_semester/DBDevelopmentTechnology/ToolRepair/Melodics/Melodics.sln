@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melodics", "Melodics\Melodics.csproj", "{9997B73C-C2A0-4E71-A9A1-BCB7B4361F6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolRepair", "ToolRepair\ToolRepair.csproj", "{107B9289-75FB-4C36-B6E9-ABA63D7BB90D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9997B73C-C2A0-4E71-A9A1-BCB7B4361F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9997B73C-C2A0-4E71-A9A1-BCB7B4361F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9997B73C-C2A0-4E71-A9A1-BCB7B4361F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9997B73C-C2A0-4E71-A9A1-BCB7B4361F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107B9289-75FB-4C36-B6E9-ABA63D7BB90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107B9289-75FB-4C36-B6E9-ABA63D7BB90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107B9289-75FB-4C36-B6E9-ABA63D7BB90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107B9289-75FB-4C36-B6E9-ABA63D7BB90D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E3256415-89E3-4D0C-ACD4-2B34FF6B28A4}
+		SolutionGuid = {C5E36909-0005-4AA8-ACE4-DC4C8B8484EA}
 	EndGlobalSection
 EndGlobal
