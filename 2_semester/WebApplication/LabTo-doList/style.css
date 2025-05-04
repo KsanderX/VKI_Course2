@@ -14,7 +14,7 @@ body {
     min-width: 400px;
     max-width: 500px;
     background: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -140,4 +140,18 @@ footer {
 
 .filter-link.active {
     font-weight: bold;
+}
+
+select#sort-tasks {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button.edit-btn {
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
 }

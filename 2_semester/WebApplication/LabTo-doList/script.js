@@ -4,32 +4,43 @@ document.addEventListener('DOMContentLoaded', () => {
     const addTaskButton = document.getElementById('add-task');
     const clearAllButton = document.getElementById('clear-all');
     const filterLinks = document.querySelectorAll('.filter-link');
+    const sortSelect = document.getElementById('sort-tasks');
 
-    let tasks = [];
-    let currentFilter = 'all'; // Текущий активный фильтр
+    let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+    let currentFilter = 'all';
+    let currentSort = 'default';
 
-    // Функция для отрисовки задач с учетом фильтра
+    function saveTasks() {
+        localStorage.setItem('tasks', JSON.stringify(tasks));
+    }
+
     function renderTasks() {
         taskList.innerHTML = '';
-        const filteredTasks = tasks.filter(task => {
+        let filtered = tasks.filter(task => {
             if (currentFilter === 'done') return task.done;
             if (currentFilter === 'not-done') return !task.done;
-            return true; // 'all' — показываем все задачи
+            return true;
         });
 
-        filteredTasks.forEach((task, index) => {
+        if (currentSort === 'name') {
+            filtered.sort((a, b) => a.text.localeCompare(b.text));
+        } else if (currentSort === 'date') {
+            filtered.sort((a, b) => new Date(a.date) - new Date(b.date));
+        }
+
+        filtered.forEach((task, index) => {
             const li = document.createElement('li');
             li.innerHTML = `
                 <input type="checkbox" ${task.done ? 'checked' : ''} data-index="${index}">
-                <span>${task.text}</span>
+                <span contenteditable="true" class="editable" data-index="${index}">${task.text}</span>
                 <sub>от ${task.date}</sub>
+                <button class="edit-btn" data-index="${index}">💾</button>
                 <button data-index="${index}">❌</button>
             `;
             taskList.appendChild(li);
         });
     }
 
-    // Добавление новой задачи
     function addTask(text) {
         const task = {
             text,
@@ -37,28 +48,33 @@ document.addEventListener('DOMContentLoaded', () => {
             date: new Date().toLocaleDateString()
         };
         tasks.push(task);
+        saveTasks();
         renderTasks();
     }
 
-    // Удаление задачи
     function deleteTask(index) {
         tasks.splice(index, 1);
+        saveTasks();
         renderTasks();
     }
 
-    // Очистка всех задач
     function clearAllTasks() {
         tasks = [];
+        saveTasks();
         renderTasks();
     }
 
-    // Переключение статуса задачи (выполнено/не выполнено)
     function toggleTaskDone(index) {
         tasks[index].done = !tasks[index].done;
+        saveTasks();
         renderTasks();
     }
 
-    // Обработчик для добавления задачи
+    function updateTaskText(index, newText) {
+        tasks[index].text = newText;
+        saveTasks();
+    }
+
     addTaskButton.addEventListener('click', () => {
         const text = newTaskInput.value.trim();
         if (text) {
@@ -67,31 +83,34 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Обработчик для очистки всех задач
     clearAllButton.addEventListener('click', clearAllTasks);
 
-    // Обработчик для удаления задачи и переключения статуса
-    taskList.addEventListener('click', (event) => {
-        if (event.target.tagName === 'BUTTON') {
-            const index = event.target.dataset.index;
+    taskList.addEventListener('click', (e) => {
+        const index = e.target.dataset.index;
+        if (e.target.tagName === 'BUTTON' && e.target.textContent === '❌') {
             deleteTask(index);
-        } else if (event.target.tagName === 'INPUT') {
-            const index = event.target.dataset.index;
+        } else if (e.target.tagName === 'INPUT') {
             toggleTaskDone(index);
+        } else if (e.target.classList.contains('edit-btn')) {
+            const span = document.querySelector(`span[data-index="${index}"]`);
+            updateTaskText(index, span.textContent.trim());
         }
     });
 
-    // Обработчик для фильтрации задач
     filterLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-            currentFilter = event.target.dataset.filter; // Обновляем текущий фильтр
-            filterLinks.forEach(link => link.classList.remove('active'));
-            event.target.classList.add('active');
-            renderTasks(); // Перерисовываем задачи с учетом нового фильтра
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            currentFilter = e.target.dataset.filter;
+            filterLinks.forEach(l => l.classList.remove('active'));
+            e.target.classList.add('active');
+            renderTasks();
         });
     });
 
-    // Первоначальная отрисовка задач
+    sortSelect.addEventListener('change', (e) => {
+        currentSort = e.target.value;
+        renderTasks();
+    });
+
     renderTasks();
 });
