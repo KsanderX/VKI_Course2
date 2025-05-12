@@ -21,7 +21,7 @@ namespace Example
         {
             string login = tbLogin.Text;
             string password = tbPassword.Text;
-            bool resultAuthorization = _authorizationService.Authrozation(login, password);
+            bool resultAuthorization = _authorizationService.Authorization(login, password);
             if (resultAuthorization)
             {
                 AccountWindow accountWindow = _serviceProvider.GetRequiredService<AccountWindow>();

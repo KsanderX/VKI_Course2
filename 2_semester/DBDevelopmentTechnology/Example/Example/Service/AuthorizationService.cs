@@ -11,7 +11,7 @@ namespace Example.Service
         {
             _context = new ProductsContext();
         }
-        public bool Authrozation(string login, string password)
+        public bool Authorization(string login, string password)
         {
             Client client = _context.Clients.Where(c => c.Login == login && c.Password == password).FirstOrDefault(); // возвращает одного клиента FirstOrDefault()
 
