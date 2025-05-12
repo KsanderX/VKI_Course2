@@ -15,10 +15,9 @@ namespace Tkachev_KR.Windows
         private IAuthorization _authorization;
         private IOrderService _orderService;
         private IServiceProvider _serviceProvider;
-        private Customer _customer;
+        private Customer _customer = null!; 
 
-        public OrderWindow(IAuthorization authorization, IOrderService orderService
-            , IServiceProvider serviceProvider )
+        public OrderWindow(IAuthorization authorization, IOrderService orderService, IServiceProvider serviceProvider)
         {
             InitializeComponent();
             _authorization = authorization;
@@ -27,21 +26,32 @@ namespace Tkachev_KR.Windows
             LoadCustomer();
             LoadOrders();
             this.DataContext = _serviceProvider.GetRequiredService<OrderViewModel>();
-
         }
+
         public void LoadCustomer()
         {
             _customer = _authorization.GetCurrentCustomer();
         }
+
         public void LoadOrders()
         {
             List<Order> indents = _orderService.GetOrder(_customer.CustomerId);
-            clientIndents.ItemsSource = indents;
+            customerOrder.ItemsSource = indents;
         }
 
-        private void btnFindIndexById_Click(object sender, RoutedEventArgs e)
+        private void btnFiltrNameProduct_Click(object sender, RoutedEventArgs e)
         {
+            customerOrder.ItemsSource = _orderService.SortNameProduct(_customer.CustomerId);
+        }
 
+        private void btnSortPriceProduct_Click(object sender, RoutedEventArgs e)
+        {
+            customerOrder.ItemsSource = _orderService.SortPriceProduct(_customer.CustomerId);
+        }
+
+        private void btnSortDateProduct_Click(object sender, RoutedEventArgs e)
+        {
+            customerOrder.ItemsSource = _orderService.SortDateProduct(_customer.CustomerId);
         }
     }
 }

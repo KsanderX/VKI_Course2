@@ -22,7 +22,7 @@ namespace Tkachev_KR
 
         private void btnAuth_Click(object sender, RoutedEventArgs e)
         {
-            string email = tbLogin.Text;
+            string email = tbLogEmail.Text;
             string password = tbPassword.Text; 
             bool resultAuthorization = _authorization.Authorization(email, password);
             if (resultAuthorization) 
@@ -34,8 +34,6 @@ namespace Tkachev_KR
             {
                 MessageBox.Show("Такого логина или пароля не найдено");
             }
-
-
         }
     }
 }

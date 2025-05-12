@@ -21,5 +21,29 @@ namespace Tkachev_KR.Services
            return _context.Orders.Include(c => c.Customer).Include( p => p.Fproduct)
                 .Where(i => i.FcustomerId == customerId).ToList();
         }
+
+
+        public List<Order> SortNameProduct(int custoerId)
+        {
+            return _context.Orders.Include(c => c.Customer).Include(p => p.Fproduct)
+                .Where(v => v.FcustomerId == custoerId)
+                .OrderByDescending(b => b.Fproduct.ProductName).ToList();
+        }
+
+        public List<Order> SortPriceProduct(int custoerId)
+        {
+           return _context.Orders.Include(c => c.Customer).Include(p => p.Fproduct)
+                .Where(v => v.FcustomerId == custoerId)
+                .OrderBy(b => b.Fproduct.Price).ToList();
+        }
+        public List<Order> SortDateProduct(int custoerId)
+        {
+            return _context.Orders
+                .Include(c => c.Customer)
+                .Include(p => p.Fproduct)
+                .Where(v => v.FcustomerId == custoerId)
+                .OrderByDescending(b => b.OrderDate)
+                .ToList();
+        }
     }
 }

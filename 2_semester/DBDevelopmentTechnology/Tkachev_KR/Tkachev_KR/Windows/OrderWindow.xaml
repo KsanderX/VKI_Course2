@@ -5,20 +5,109 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tkachev_KR.Windows"
         mc:Ignorable="d"
-        Title="OrderWindow" Height="450" Width="800">
-    <Grid>
+        Title="Покупки пользователя" Height="456" Width="900"
+        Background="#f4f6fa"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="ListView">
+            <Setter Property="BorderBrush" Value="#d1d5db"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="DimGray"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="6" ShadowDepth="1" Opacity="0.15"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#1d4ed8"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="GroupBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#d1d5db"/>
+            <Setter Property="BorderThickness" Value="1"/>
+
+            <Setter Property="Margin" Value="0,0,0,0"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.10"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Foreground" Value="#22223b"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="Foreground" Value="#22223b"/>
+            <Setter Property="Background" Value="#f8fafc"/>
+            <Setter Property="BorderBrush" Value="#d1d5db"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="4,2"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="30">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0" >
-            <Label Content="Заказы пользователя" FontSize="20" HorizontalAlignment="Center"/>
-            <ListView  x:Name="clientIndents" Height="178" Width="350" SelectedValuePath="Id" DisplayMemberPath="Name"
-    SelectedItem="{Binding SelectedIndent}"/>
-            <Label Content="Введите ID Заказа" FontSize="16" Width="300"/>
-            <TextBox  Height="30" FontSize="14" x:Name="tbSelectedId" Width="300" />
-            <Button Content="Поиск" Height="30" Margin="10" x:Name="btnFindIndexById"
-            Width="300" Click="btnFindIndexById_Click"/>
+
+        <StackPanel Grid.Column="0" Margin="0,0,30,0">
+            <Label Content="Покупки пользователя" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <ListView  x:Name="customerOrder" Height="104" 
+                       SelectedValuePath="OrderId" 
+                       DisplayMemberPath="Fproduct.ProductName"
+                       SelectedItem="{Binding SelectedOrder}" Width="302">
+            </ListView>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" >
+                <Button x:Name="btnFiltrNameProduct" Content="Фильтровать по имени продукта" Height="36" Width="277"  Margin="4" Click="btnFiltrNameProduct_Click"/>
+                <Button x:Name="btnSortPriceProduct" Content="Сортировать по стоимости продукта" Height="36" Width="278" Margin="4" Click="btnSortPriceProduct_Click"/>
+                <Button x:Name="btnSortDateProduct" Content="Сортировать по дате продукта" Height="36" Width="278" Margin="4" Click="btnSortDateProduct_Click"/>
+            </StackPanel>
         </StackPanel>
+
+        <GroupBox Header="Информация о заказе" FontSize="20" FontWeight="Bold" Grid.Column="1" Padding="25" Background="White">
+            <StackPanel>
+                <UniformGrid Columns="2" Rows="5" Margin="0,0,0,20" HorizontalAlignment="Stretch">
+                    <Label FontSize="16" Content="ID заказа:" VerticalAlignment="Center"/>
+                    <TextBox Height="30" FontSize="16" Text="{Binding SelectedOrder.OrderId}" IsReadOnly="True" Margin="0,5"/>
+                    <Label FontSize="16" Content="Продукт заказа:" VerticalAlignment="Center"/>
+                    <TextBox Height="30" FontSize="16" Text="{Binding SelectedOrder.Fproduct.ProductName}" IsReadOnly="True" Margin="0,5"/>
+                    <Label FontSize="16" Content="Цена продукта:" VerticalAlignment="Center"/>
+                    <TextBox Height="30" FontSize="16" Text="{Binding SelectedOrder.Fproduct.Price}" IsReadOnly="True" Margin="0,5"/>
+                    <Label FontSize="16" Content="Дата заказа:" VerticalAlignment="Center"/>
+                    <TextBox Height="30" FontSize="16" Text="{Binding SelectedOrder.OrderDate}" IsReadOnly="True" Margin="0,5"/>
+                </UniformGrid>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>

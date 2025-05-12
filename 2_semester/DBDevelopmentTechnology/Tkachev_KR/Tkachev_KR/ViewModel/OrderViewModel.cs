@@ -4,6 +4,6 @@ namespace Tkachev_KR.ViewModel
 {
     public class OrderViewModel
     {
-        public Order SelectedIndent { get; set; }
+        public Order? SelectedOrder { get; set; }
     }
 }

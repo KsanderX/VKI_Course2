@@ -14,11 +14,13 @@ namespace Tkachev_KR.Services
         public AuthorizationService()
         {
             _context = new TkachevContext();
+            _customer = null!;
         }
         public bool Authorization(string email, string password)
         {
-           Customer customer = _context.Customers.Where(c => c.Email == email
-           && c.Pasword == password ).FirstOrDefault();
+            Customer? customer = _context.Customers
+                .Where(c => c.Email == email && c.Pasword == password)
+                .FirstOrDefault();
 
             if (customer != null)
             {
