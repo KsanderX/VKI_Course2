@@ -1,39 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\",
+  "WorkspaceRootPath": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\winformsapp1\\winformsapp1\\liblarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\2_semester\\winformsapp1\\winformsapp1\\liblarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\liblarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\winformsapp1\\winformsapp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\winformsapp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\winformsapp1\\winformsapp1\\bookscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\2_semester\\winformsapp1\\winformsapp1\\bookscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\bookscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost/MyNewCroNbcg/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost/MyNewCroNbcg/True/SqlTable/dbo.__EFMigrationsHistory.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\winformsapp1\\bookscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\winformsapp1\\bookscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\bookscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\winformsapp1\\winformsapp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\2_semester\\winformsapp1\\winformsapp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\booksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\winformsapp1\\winformsapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\2_semester\\winformsapp1\\winformsapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,7 +52,7 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322031808_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\winformsapp1\\winformsapp1\\migrations\\20250322032530_testern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\2_semester\\winformsapp1\\winformsapp1\\migrations\\20250322032530_testern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C1F0ACB-21AE-4D39-BCE8-7839CE7C3772}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\migrations\\20250322032530_testern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,15 +63,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LiblaryContext.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\LiblaryContext.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\LiblaryContext.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\LiblaryContext.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\LiblaryContext.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\LiblaryContext.cs",
               "RelativeToolTip": "WinFormsApp1\\LiblaryContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,10 +86,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
               "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T07:21:36.588Z"
             },
@@ -96,21 +96,19 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BooksForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksForm.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\BooksForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\BooksForm.cs",
               "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WinFormsApp1\\BooksForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:21:25.732Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-03-22T07:21:25.732Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BooksControl.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksControl.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\BooksControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\BooksControl.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksControl.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\BooksControl.cs",
               "RelativeToolTip": "WinFormsApp1\\BooksControl.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwCgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,11 +117,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "BooksForm.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksForm.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\BooksForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\BooksForm.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksForm.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\BooksForm.cs",
               "RelativeToolTip": "WinFormsApp1\\BooksForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -140,31 +138,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BooksControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksControl.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\BooksControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\BooksControl.cs",
               "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\BooksControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WinFormsApp1\\BooksControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T03:48:36.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.__EFMigrationsHistory.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost/MyNewCroNbcg/True/SqlTable/dbo.__EFMigrationsHistory.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/localhost/MyNewCroNbcg/True/SqlTable/dbo.__EFMigrationsHistory.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-22T04:09:05.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "20250322032530_TesterN.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032530_TesterN.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032530_TesterN.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Migrations\\20250322032530_TesterN.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032530_TesterN.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032530_TesterN.cs",
               "RelativeToolTip": "WinFormsApp1\\Migrations\\20250322032530_TesterN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -172,11 +160,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "User.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\Models\\User.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\Models\\User.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Models\\User.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\WinFormsApp1\\WinFormsApp1\\Models\\User.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\2_semester\\WinFormsApp1\\WinFormsApp1\\Models\\User.cs",
               "RelativeToolTip": "WinFormsApp1\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "dbo.Books.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost/CroznoDb/True/SqlTable/dbo.Books.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/localhost/CroznoDb/True/SqlTable/dbo.Books.sql",
@@ -193,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost/CroznoDb/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/localhost/CroznoDb/True/SqlTable/dbo.Users.sql",
@@ -202,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "20250322032214_TesterN.cs",
               "DocumentMoniker": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032214_TesterN.cs",
               "ToolTip": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032214_TesterN.cs",
@@ -211,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "20250322032108_TesterN.cs",
               "DocumentMoniker": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032108_TesterN.cs",
               "ToolTip": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322032108_TesterN.cs",
@@ -220,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "20250322031950_Tester.cs",
               "DocumentMoniker": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322031950_Tester.cs",
               "ToolTip": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322031950_Tester.cs",
@@ -229,12 +217,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "20250322031808_Test.cs",
               "DocumentMoniker": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322031808_Test.cs",
               "ToolTip": "C:\\Users\\Terminator Ivan\\Desktop\\LabsC\\Semester_2\\WinFormsApp1\\WinFormsApp1\\Migrations\\20250322031808_Test.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T03:18:08.352Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
