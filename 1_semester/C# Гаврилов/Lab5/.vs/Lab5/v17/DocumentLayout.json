@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab5\\",
+  "WorkspaceRootPath": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F0E98A4-B05B-4CFA-8BC6-077D91F92AE1}|Lab5.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\1 semester\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F0E98A4-B05B-4CFA-8BC6-077D91F92AE1}|Lab5.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\1_semester\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F0E98A4-B05B-4CFA-8BC6-077D91F92AE1}|Lab5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab5\\Program.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab5\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab5\\Program.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab5\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAUwNAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAzwNAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T03:52:56.62Z",
               "EditorCaption": ""
