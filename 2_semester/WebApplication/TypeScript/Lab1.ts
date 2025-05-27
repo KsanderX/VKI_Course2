@@ -23,5 +23,3 @@ export function logPerson(user: User) {
 
 console.log('Users:');
 users.forEach(logPerson);
-
-//ts-node Lab1.ts 

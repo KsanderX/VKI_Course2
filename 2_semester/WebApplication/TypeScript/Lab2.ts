@@ -1,4 +1,4 @@
-type User = {
+type Userr = {
     id: string;
     name: string;
 }
@@ -27,18 +27,18 @@ type WithLevel = {
 /* --- */
 
 type StudentCourse = Course & WithStudentRole & WithRate & WithLevel
-type Student = User & { courses: { [id: number]: StudentCourse } }
+type Student = Userr & { courses: { [id: number]: StudentCourse } }
 
-//для Teacher
+// Решение для Teacher
 type TeacherCourse = Course & WithTeacherRole
-type Teacher = User & WithLevel & {
+type Teacher = Userr & WithLevel & {
     courses: { [id: number]: TeacherCourse }
 }
 
-//для Director
-type DirectorStudents = { [id: string]: User }
-type DirectorTeachers = { [id: string]: User & WithLevel & WithRate }
-type Director = User & {
+// Решение для Director
+type DirectorStudents = { [id: string]: Userr }
+type DirectorTeachers = { [id: string]: Userr & WithLevel & WithRate }
+type Director = Userr & {
     students: DirectorStudents;
     teachers: DirectorTeachers;
 }
@@ -98,7 +98,3 @@ const d1: Director = {
         }
     }
 }
-
-console.log('Student:', s1);
-console.log('Teacher:', t1);
-console.log('Director:', d1);
