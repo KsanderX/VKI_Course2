@@ -1,101 +1,101 @@
-type User = {
-    id: string;
-    name: string;
-}
+// type User = {
+//     id: string;
+//     name: string;
+// }
 
-type Role = "student" | "teacher"
+// type Role = "student" | "teacher"
 
-type Rate = 1 | 2 | 3 | 4 | 5
+// type Rate = 1 | 2 | 3 | 4 | 5
 
-type Level = "junior" | "middle" | "senior"
+// type Level = "junior" | "middle" | "senior"
 
-type Coursee = {
-    id: number;
-    title: string;
-    role: Role;
-    rate: Rate;
-    level: Level;
-}
+// type Coursee = {
+//     id: number;
+//     title: string;
+//     role: Role;
+//     rate: Rate;
+//     level: Level;
+// }
 
-/* --- */
+// /* --- */
 
-type Studentt = Userr & { 
-    courses: { 
-        [id: number]: Omit<Course, "role"> & { role: Exclude<Role, "teacher"> } 
-    } 
-}
+// type Studentt = Userr & { 
+//     courses: { 
+//         [id: number]: Omit<Course, "role"> & { role: Exclude<Role, "teacher"> } 
+//     } 
+// }
 
-// Teacher type using Utility Types
-type Teacherr = Userr & {
-    level: Level;
-    courses: {
-        [id: number]: Pick<Coursee, "id" | "title" | "role"> & 
-                      Partial<Pick<Coursee, "rate" | "level">> & 
-                      { role: Extract<Role, "teacher"> }
-    }
-}
+// // Teacher type using Utility Types
+// type Teacherr = Userr & {
+//     level: Level;
+//     courses: {
+//         [id: number]: Pick<Coursee, "id" | "title" | "role"> & 
+//                       Partial<Pick<Coursee, "rate" | "level">> & 
+//                       { role: Extract<Role, "teacher"> }
+//     }
+// }
 
-// Director type using Utility Types
-type Directorr = Userr & {
-    students: Partial<Record<string, Pick<Userr, "id" | "name">>>;
-    teachers: Partial<Record<string, 
-        Pick<Userr, "id" | "name"> & 
-        Pick<Coursee, "level" | "rate">
-    >>;
-}
+// // Director type using Utility Types
+// type Directorr = Userr & {
+//     students: Partial<Record<string, Pick<Userr, "id" | "name">>>;
+//     teachers: Partial<Record<string, 
+//         Pick<Userr, "id" | "name"> & 
+//         Pick<Coursee, "level" | "rate">
+//     >>;
+// }
 
-/*-- Проверка --*/
-const stud1: Student = {
-    id: "s1",
-    name: "s1",
-    courses: {
-        [1]: {
-            id: 1,
-            title: "First",
-            rate: 5,
-            role: "student",
-            level: "middle"
-        }
-    },
-}
+// /*-- Проверка --*/
+// const stud1: Student = {
+//     id: "s1",
+//     name: "s1",
+//     courses: {
+//         [1]: {
+//             id: 1,
+//             title: "First",
+//             rate: 5,
+//             role: "student",
+//             level: "middle"
+//         }
+//     },
+// }
 
-const tea1: Teacherr = {
-    id: "t1",
-    name: "t1",
-    level: "junior",
-    courses: {
-        [5]: {
-            id: 5,
-            title: "Fifth",
-            role: "teacher"
-        },
-        [1]: {
-            ...s1.courses[1],
-            role: "teacher"
-        }
-    }
-}
+// const tea1: Teacherr = {
+//     id: "t1",
+//     name: "t1",
+//     level: "junior",
+//     courses: {
+//         [5]: {
+//             id: 5,
+//             title: "Fifth",
+//             role: "teacher"
+//         },
+//         [1]: {
+//             ...s1.courses[1],
+//             role: "teacher"
+//         }
+//     }
+// }
 
-const dir1: Directorr = {
-    id: "d1",
-    name: "d1",
-    students: {
-        ["s1"]: s1,
-        ["s2"]: {
-            id: "s2",
-            name: "s2"
-        }
-    },
-    teachers: {
-        ["t1"]: {
-            ...t1,
-            rate: 3,
-        },
-        ["t2"]: {
-            id: "t2",
-            name: "t2",
-            level: "senior",
-            rate: 5
-        }
-    }
-}
+// const dir1: Directorr = {
+//     id: "d1",
+//     name: "d1",
+//     students: {
+//         ["s1"]: s1,
+//         ["s2"]: {
+//             id: "s2",
+//             name: "s2"
+//         }
+//     },
+//     teachers: {
+//         ["t1"]: {
+//             ...t1,
+//             rate: 3,
+//         },
+//         ["t2"]: {
+//             id: "t2",
+//             name: "t2",
+//             level: "senior",
+//             rate: 5
+//         }
+//     }
+// }
