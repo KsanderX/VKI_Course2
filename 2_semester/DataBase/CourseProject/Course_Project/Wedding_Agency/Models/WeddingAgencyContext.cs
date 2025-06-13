@@ -29,8 +29,6 @@ public partial class WeddingAgencyContext : DbContext
 
     public virtual DbSet<Decoration> Decorations { get; set; }
 
-    public virtual DbSet<Decorator> Decorators { get; set; }
-
     public virtual DbSet<DesignLocation> DesignLocations { get; set; }
 
     public virtual DbSet<FreelanceEmployee> FreelanceEmployees { get; set; }
@@ -50,7 +48,8 @@ public partial class WeddingAgencyContext : DbContext
     public virtual DbSet<WeddingFreelanceEmployee> WeddingFreelanceEmployees { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=PC_Sanya;Database=Wedding_Agency;TrustServerCertificate=True;Integrated Security=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=PC_SANYA;Database=Wedding_Agency;TrustServerCertificate=True;Integrated Security=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -73,6 +72,8 @@ public partial class WeddingAgencyContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("Last_Name");
+            entity.Property(e => e.Login).HasMaxLength(20);
+            entity.Property(e => e.Password).HasMaxLength(20);
             entity.Property(e => e.PhoneNumber)
                 .HasMaxLength(20)
                 .IsUnicode(false);
@@ -222,36 +223,6 @@ public partial class WeddingAgencyContext : DbContext
                 .HasConstraintName("FK__Decoratio__FK_De__5FB337D6");
         });
 
-        modelBuilder.Entity<Decorator>(entity =>
-        {
-            entity.HasKey(e => e.IdDecorator).HasName("PK__Decorato__F55CFFC48F174BCE");
-
-            entity.ToTable("Decorator");
-
-            entity.Property(e => e.IdDecorator).HasColumnName("Id_Decorator");
-            entity.Property(e => e.FirstName)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("First_Name");
-            entity.Property(e => e.FkDesignLocation).HasColumnName("FK_Design_Location");
-            entity.Property(e => e.FkFreelanceEmployee).HasColumnName("FK_Freelance_Employee");
-            entity.Property(e => e.LastName)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("Last_Name");
-            entity.Property(e => e.Specialty)
-                .HasMaxLength(50)
-                .IsUnicode(false);
-
-            entity.HasOne(d => d.FkDesignLocationNavigation).WithMany(p => p.Decorators)
-                .HasForeignKey(d => d.FkDesignLocation)
-                .HasConstraintName("FK__Decorator__FK_De__71D1E811");
-
-            entity.HasOne(d => d.FkFreelanceEmployeeNavigation).WithMany(p => p.Decorators)
-                .HasForeignKey(d => d.FkFreelanceEmployee)
-                .HasConstraintName("FK__Decorator__FK_Fr__60A75C0F");
-        });
-
         modelBuilder.Entity<DesignLocation>(entity =>
         {
             entity.HasKey(e => e.IdDesignLocation).HasName("PK__Design_L__EB276848EA28145A");
@@ -289,6 +260,8 @@ public partial class WeddingAgencyContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("First_Name");
+            entity.Property(e => e.FkDecoration).HasColumnName("FK_Decoration");
+            entity.Property(e => e.FkDesignLocation).HasColumnName("FK_Design_Location");
             entity.Property(e => e.FkPosition).HasColumnName("FK_Position");
             entity.Property(e => e.LastName)
                 .HasMaxLength(50)
@@ -297,6 +270,10 @@ public partial class WeddingAgencyContext : DbContext
             entity.Property(e => e.PhoneNumber)
                 .HasMaxLength(20)
                 .IsUnicode(false);
+
+            entity.HasOne(d => d.FkDesignLocationNavigation).WithMany(p => p.FreelanceEmployees)
+                .HasForeignKey(d => d.FkDesignLocation)
+                .HasConstraintName("FK__Freelance__FK_De__02084FDA");
 
             entity.HasOne(d => d.FkPositionNavigation).WithMany(p => p.FreelanceEmployees)
                 .HasForeignKey(d => d.FkPosition)

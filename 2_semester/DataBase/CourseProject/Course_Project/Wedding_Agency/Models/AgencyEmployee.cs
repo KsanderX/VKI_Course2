@@ -17,6 +17,10 @@ public partial class AgencyEmployee
 
     public string? Email { get; set; }
 
+    public string? Login { get; set; }
+
+    public string? Password { get; set; }
+
     public virtual Position? FkPositionNavigation { get; set; }
 
     public virtual ICollection<WeddingAgencyEmployee> WeddingAgencyEmployees { get; set; } = new List<WeddingAgencyEmployee>();

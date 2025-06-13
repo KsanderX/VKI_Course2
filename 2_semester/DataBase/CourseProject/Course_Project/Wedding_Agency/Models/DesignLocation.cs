@@ -17,7 +17,7 @@ public partial class DesignLocation
 
     public virtual ICollection<Decoration> Decorations { get; set; } = new List<Decoration>();
 
-    public virtual ICollection<Decorator> Decorators { get; set; } = new List<Decorator>();
-
     public virtual Location? FkLocationNavigation { get; set; }
+
+    public virtual ICollection<FreelanceEmployee> FreelanceEmployees { get; set; } = new List<FreelanceEmployee>();
 }

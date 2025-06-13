@@ -17,9 +17,13 @@ public partial class FreelanceEmployee
 
     public string? Email { get; set; }
 
+    public int? FkDecoration { get; set; }
+
+    public int? FkDesignLocation { get; set; }
+
     public virtual ICollection<CateringEmployee> CateringEmployees { get; set; } = new List<CateringEmployee>();
 
-    public virtual ICollection<Decorator> Decorators { get; set; } = new List<Decorator>();
+    public virtual DesignLocation? FkDesignLocationNavigation { get; set; }
 
     public virtual PositionFreelanceEmployee? FkPositionNavigation { get; set; }
 

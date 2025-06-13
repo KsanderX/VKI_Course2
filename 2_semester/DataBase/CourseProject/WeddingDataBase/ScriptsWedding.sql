@@ -36,10 +36,6 @@ Create table Catering_Employee (
 Id  int primary key identity(1,1),
 )
 
-Create table Decorator (
-Id_Decorator int primary key identity(1,1),
-)
-
 Create table Decoration (
 Id_Decoration  int primary key identity(1,1),
 )
@@ -90,6 +86,10 @@ Alter table Freelance_Employee
 add FK_Position int
 foreign key(FK_Position) references Position_Freelance_Employees(Id_Position_Freelance_Employees)
 
+Alter table Freelance_Employee
+add FK_Design_Location int
+foreign key(FK_Design_Location) references Design_Location(Id_Design_Location)
+
 Alter table Booking_Location
 add FK_Contract int,
 FK_Location int
@@ -103,14 +103,6 @@ foreign key(FK_Location) references Location(Id_Location)
 Alter table Decoration
 add FK_Design_Location int
 foreign key(FK_Design_Location) references Design_Location(Id_Design_Location)
-
-Alter table Decorator
-add FK_Design_Location int,
-FK_Freelance_Employee int
-foreign key(FK_Freelance_Employee) references Freelance_Employee(Id_Freelance_Employee)
-
-Alter table Decorator
-add foreign key(FK_Design_Location) references Design_Location(Id_Design_Location)
 
 Alter table Catering_Employee
 add FK_Catering int,
@@ -198,13 +190,6 @@ ADD
     First_Name VARCHAR(50),
     Last_Name VARCHAR(50),
     Role VARCHAR(50); -- повар, официант и т.п.
-
--- DECORATOR
-ALTER TABLE Decorator
-ADD
-    First_Name VARCHAR(50),
-    Last_Name VARCHAR(50),
-    Specialty VARCHAR(50); -- декоратор, флорист
 
 -- DECORATION
 ALTER TABLE Decoration

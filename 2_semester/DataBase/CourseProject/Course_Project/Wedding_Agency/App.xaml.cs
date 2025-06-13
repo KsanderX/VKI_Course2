@@ -9,6 +9,7 @@ namespace Wedding_Agency
     /// </summary>
     public partial class App : Application
     {
+
     }
 
 }
