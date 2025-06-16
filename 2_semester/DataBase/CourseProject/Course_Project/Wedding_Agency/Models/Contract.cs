@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Wedding_Agency.Models;
+﻿namespace Wedding_Agency.Models;
 
 public partial class Contract
 {
@@ -9,7 +6,7 @@ public partial class Contract
 
     public int? FkClient { get; set; }
 
-    public DateOnly? ContractDate { get; set; }
+    public DateOnly? ContractDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
 
     public DateOnly? WeddingDate { get; set; }
 

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Wedding_Agency.Models;
+﻿namespace Wedding_Agency.Models;
 
 public partial class Position
 {

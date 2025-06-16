@@ -1,0 +1,35 @@
+﻿<Window x:Class="Wedding_Agency.Views.EditContractView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wedding_Agency.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Изменение контракта" Height="450" Width="370">
+    <Grid>
+        <StackPanel Margin="20">
+
+            <TextBlock Text="Клиент:"/>
+            <ComboBox x:Name="cbClients" DisplayMemberPath="FirstName" SelectedValuePath="IdClient"/>
+
+            <TextBlock Text="Дата свадьбы:" Margin="0,10,0,0"/>
+            <DatePicker x:Name="dpWeddingDate"/>
+
+            <TextBlock Text="Бюджет:"/>
+            <TextBox x:Name="tbBudget"/>
+
+            <TextBlock Text="Описание:"/>
+            <TextBox x:Name="tbDescription" Height="60"/>
+
+            <TextBlock Text="Локация:" Margin="0,10,0,0"/>
+            <ComboBox x:Name="cbLocation" DisplayMemberPath="Name" SelectedValuePath="IdLocation"/>
+
+            <TextBlock Text="Меню:" Margin="0,10,0,0"/>
+            <ComboBox x:Name="cbMenu" DisplayMemberPath="Name" SelectedValuePath="IdMenu"/>
+
+            <Button Content="Сохранить изменения" Margin="0,10,0,0" Click="btnSave_Click"/>
+            <Button Content="Отмена" Click="btnCancel_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
