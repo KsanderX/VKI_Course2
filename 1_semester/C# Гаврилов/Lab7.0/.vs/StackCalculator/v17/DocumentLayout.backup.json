@@ -55,14 +55,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440 \u2014 \u0420\u0443\u0441\u0441\u043A\u0438\u0439]",
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs",
               "RelativeDocumentMoniker": "Lab7\\Form1.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440 \u2014 \u0420\u0443\u0441\u0441\u043A\u0438\u0439]",
-              "RelativeToolTip": "Lab7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440 \u2014 \u0420\u0443\u0441\u0441\u043A\u0438\u0439]",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Lab7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T09:18:47.074Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440 \u2014 \u0420\u0443\u0441\u0441\u043A\u0438\u0439]"
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",

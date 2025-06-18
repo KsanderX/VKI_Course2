@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\",
+  "WorkspaceRootPath": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\1 semester\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab7.0\\lab7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\1_semester\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab7.0\\lab7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\operationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\operationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\operationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\expressionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\expressionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\expressionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\stackcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\stackcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\stackcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\ioperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\ioperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\ioperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\lab7\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{331C99BF-136E-41D7-8563-C95132FDC183}|Lab7\\Lab7.csproj|solutionrelative:lab7\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs",
               "RelativeDocumentMoniker": "Lab7\\Form1.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Lab7\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T09:18:47.074Z",
@@ -68,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Program.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Program.cs",
               "RelativeDocumentMoniker": "Lab7\\Program.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Program.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Program.cs",
               "RelativeToolTip": "Lab7\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,9 +80,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.Designer.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Lab7\\Form1.Designer.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.Designer.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.Designer.cs",
               "RelativeToolTip": "Lab7\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Form1.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs",
               "RelativeDocumentMoniker": "Lab7\\Form1.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Form1.cs",
               "RelativeToolTip": "Lab7\\Form1.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowIYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ExpressionConverter.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\ExpressionConverter.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\ExpressionConverter.cs",
               "RelativeDocumentMoniker": "Lab7\\ExpressionConverter.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\ExpressionConverter.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\ExpressionConverter.cs",
               "RelativeToolTip": "Lab7\\ExpressionConverter.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowC0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "StackCalculator.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\StackCalculator.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\StackCalculator.cs",
               "RelativeDocumentMoniker": "Lab7\\StackCalculator.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\StackCalculator.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\StackCalculator.cs",
               "RelativeToolTip": "Lab7\\StackCalculator.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,22 +129,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "OperationFactory.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\OperationFactory.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\OperationFactory.cs",
               "RelativeDocumentMoniker": "Lab7\\OperationFactory.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\OperationFactory.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\OperationFactory.cs",
               "RelativeToolTip": "Lab7\\OperationFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T05:24:24.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T05:24:24.413Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "IOperation.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\IOperation.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\IOperation.cs",
               "RelativeDocumentMoniker": "Lab7\\IOperation.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\IOperation.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\IOperation.cs",
               "RelativeToolTip": "Lab7\\IOperation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,9 +153,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Exceptions.cs",
-              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Exceptions.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Exceptions.cs",
               "RelativeDocumentMoniker": "Lab7\\Exceptions.cs",
-              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1 semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Exceptions.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab7.0\\Lab7\\Exceptions.cs",
               "RelativeToolTip": "Lab7\\Exceptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

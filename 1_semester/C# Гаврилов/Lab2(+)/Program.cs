@@ -174,7 +174,7 @@
             }
             else
             {
-                Console.WriteLine("Элемент не найден");
+                Console.WriteLine($"Элемент {key} не найден");
             }
         }
         public Node Find(int target, Node current)

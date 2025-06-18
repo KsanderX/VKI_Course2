@@ -102,3 +102,17 @@ F:\ВКИ\VKI_Course2\1 semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.cs
 F:\ВКИ\VKI_Course2\1 semester\C# Гаврилов\Lab7\Lab7\obj\Debug\ru\Lab7.resources.dll
 F:\ВКИ\VKI_Course2\1 semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.exe
 F:\ВКИ\VKI_Course2\1 semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.pdb
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\bin\Debug\Lab7.exe.config
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\bin\Debug\Lab7.exe
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\bin\Debug\Lab7.pdb
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\bin\Debug\ru\Lab7.resources.dll
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.csproj.AssemblyReference.cache
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.exe.config
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.Form1.resources
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.Properties.Resources.resources
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.Form1.ru.resources
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.csproj.GenerateResource.cache
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.csproj.CoreCompileInputs.cache
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\ru\Lab7.resources.dll
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.exe
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab7\Lab7\obj\Debug\Lab7.pdb

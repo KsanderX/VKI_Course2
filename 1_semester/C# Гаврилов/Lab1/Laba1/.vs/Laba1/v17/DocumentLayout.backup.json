@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\",
+  "WorkspaceRootPath": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2829B547-2388-4337-9314-F01098ADCA10}|Laba1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab1\\laba1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2829B547-2388-4337-9314-F01098ADCA10}|Laba1.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\1_semester\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab1\\laba1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829B547-2388-4337-9314-F01098ADCA10}|Laba1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829B547-2388-4337-9314-F01098ADCA10}|Laba1.csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab1\\laba1\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2829B547-2388-4337-9314-F01098ADCA10}|Laba1.csproj|f:\\\u0432\u043A\u0438\\vki_course2\\1_semester\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab1\\laba1\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829B547-2388-4337-9314-F01098ADCA10}|Laba1.csproj|solutionrelative:list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,30 +18,33 @@
       "DocumentGroups": [
         {
           "DockedHeight": 312,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "List.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\List.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\List.cs",
               "RelativeDocumentMoniker": "List.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\List.cs*",
-              "RelativeToolTip": "List.cs*",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\List.cs",
+              "RelativeToolTip": "List.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA1wDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T04:12:48.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T04:12:48.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\Program.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwE4AAAAQAAAAAAAAAA==",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab1\\Laba1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwG8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T04:00:09.669Z",
               "EditorCaption": ""
@@ -54,11 +57,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

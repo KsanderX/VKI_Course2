@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Laba2(\u002B)\\",
+  "WorkspaceRootPath": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2(\u002B)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{121F0195-E0AE-4BC0-BDF9-91780B3F39A1}|Laba2(\u002B).csproj|g:\\aganivhev2307\\2 \u043A\u0443\u0440\u0441\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\laba2(\u002B)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{121F0195-E0AE-4BC0-BDF9-91780B3F39A1}|Laba2(\u002B).csproj|f:\\\u0432\u043A\u0438\\vki_course2\\1_semester\\c# \u0433\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\lab2(\u002B)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{121F0195-E0AE-4BC0-BDF9-91780B3F39A1}|Laba2(\u002B).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +14,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Laba2(\u002B)\\Program.cs",
+              "DocumentMoniker": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2(\u002B)\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "G:\\Aganivhev2307\\2 \u043A\u0443\u0440\u0441\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Laba2(\u002B)\\Program.cs",
+              "ToolTip": "F:\\\u0412\u041A\u0418\\VKI_Course2\\1_semester\\C# \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\\Lab2(\u002B)\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAANYAAAAAAAAAAAAIwPcAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T04:07:25.009Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

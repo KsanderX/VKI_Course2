@@ -12,3 +12,18 @@ G:\Aganivhev2307\2 курс\C# Гаврилов\Laba2(+)\obj\Debug\net8.0\refint
 G:\Aganivhev2307\2 курс\C# Гаврилов\Laba2(+)\obj\Debug\net8.0\Laba2(+).pdb
 G:\Aganivhev2307\2 курс\C# Гаврилов\Laba2(+)\obj\Debug\net8.0\Laba2(+).genruntimeconfig.cache
 G:\Aganivhev2307\2 курс\C# Гаврилов\Laba2(+)\obj\Debug\net8.0\ref\Laba2(+).dll
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\bin\Debug\net8.0\Laba2(+).exe
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\bin\Debug\net8.0\Laba2(+).deps.json
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\bin\Debug\net8.0\Laba2(+).runtimeconfig.json
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\bin\Debug\net8.0\Laba2(+).dll
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\bin\Debug\net8.0\Laba2(+).pdb
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).GeneratedMSBuildEditorConfig.editorconfig
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).AssemblyInfoInputs.cache
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).AssemblyInfo.cs
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).csproj.CoreCompileInputs.cache
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).sourcelink.json
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).dll
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\refint\Laba2(+).dll
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).pdb
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\Laba2(+).genruntimeconfig.cache
+F:\ВКИ\VKI_Course2\1_semester\C# Гаврилов\Lab2(+)\obj\Debug\net8.0\ref\Laba2(+).dll
