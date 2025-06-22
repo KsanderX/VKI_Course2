@@ -8,15 +8,14 @@ namespace exam.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public RequestStatus Status { get; set; }
-        public int UserId { get; set; } 
-        public User User { get; set; } // Навигационное свойство для связи с пользователем
+        public int? UserId { get; set; } 
+        public User? User { get; set; } // Навигационное свойство для связи с пользователем
         public DateTime CreatedAt { get; set; }
 
     }
     public enum RequestStatus
     {
         InProgress,
-        Completed,
-        Cancelled
+        Completed
     }
 }

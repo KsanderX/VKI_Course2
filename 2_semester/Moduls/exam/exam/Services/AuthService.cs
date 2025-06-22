@@ -46,5 +46,10 @@ namespace exam.Services
                 _context.SaveChanges();
             }                 
         }
+
+        public bool LoginExists(string login)
+        {
+            return _context.Users.Any(l => l.Login == login);
+        }
     }
 }

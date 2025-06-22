@@ -50,5 +50,12 @@ namespace exam.Views
                 questsView.ShowDialog();
             }
         }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            var back = _service.GetRequiredService<RequestAdminView>();
+            this.Close();
+            back.ShowDialog();
+        }
     }
 }

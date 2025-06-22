@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using exam.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 namespace exam.Views
 {
@@ -24,9 +25,17 @@ namespace exam.Views
             string repeatPassword = tbRepeatPass.Text;
 
             if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(password)
-                || string.IsNullOrWhiteSpace(repeatPassword) || name.Length < 3)
+                || string.IsNullOrWhiteSpace(repeatPassword))
             {
                 MessageBox.Show("Заполните поля!");
+            }
+            else if (_authService.LoginExists(login))
+            {
+                MessageBox.Show("Пользователь с таким логином уже существует!");
+            }
+            else if (name.Length < 3)
+            {
+                MessageBox.Show("Имя должно быть не менее 3 символов!");
             }
             else
             {

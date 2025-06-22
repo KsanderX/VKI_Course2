@@ -16,5 +16,12 @@ namespace exam.Views
             _serviceProvider = serviceProvider;
             this.DataContext = _serviceProvider.GetRequiredService<UserViewModel>();
         }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            var exit = _serviceProvider.GetRequiredService<AuthorizateView>();
+            this.Close();
+            exit.Show();
+        }
     }
 }

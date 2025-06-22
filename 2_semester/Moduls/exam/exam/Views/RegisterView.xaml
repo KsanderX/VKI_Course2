@@ -6,18 +6,18 @@
         xmlns:local="clr-namespace:exam.Views"
         mc:Ignorable="d"
         WindowStartupLocation = "CenterScreen"
-        Title="RegisterView" Height="754" Width="800">
-    <Grid>
-        <StackPanel Margin="225,132,198,20">
-            <Label Content="Регистрация" FontSize="22" FontFamily="Arial" HorizontalAlignment="Center"/>
-            <Label Content="Имя" FontSize="16" Margin="10"/>
+        Title="RegisterView" Height="520" Width="550">
+    <Grid Margin="10,10,10,10">
+        <StackPanel Margin="90,10,82,10">
+            <Label Content="Регистрация" FontSize="22" FontFamily="Arial Black" HorizontalAlignment="Center"/>
+            <Label Content="Имя" FontSize="16"/>
             <TextBox x:Name="tbName"  FontSize="18" Height="30" Margin="10"/>
-            <Label Content="Логин" FontSize="16" Margin="10"/>
+            <Label Content="Логин" FontSize="16"/>
             <TextBox x:Name="tbLogin"  FontSize="18" Height="30" Margin="10"/>
-            <Label Content="Пароль" FontSize="16" Margin="10"/>
-            <TextBox x:Name="tbPass"  FontSize="18" Height="30"/>
-            <Label Content="Повторите пароль" FontSize="16" Margin="10"/>
-            <TextBox x:Name="tbRepeatPass" FontSize="18" Height="30"/>
+            <Label Content="Пароль" FontSize="16"/>
+            <TextBox x:Name="tbPass"  FontSize="18" Height="30" Margin="10"/>
+            <Label Content="Повторите пароль" FontSize="16"/>
+            <TextBox x:Name="tbRepeatPass" FontSize="18" Height="30" Margin="10"/>
 
             <Button x:Name="btnSave" Content="Сохранить" FontSize="16" Margin="10" Click="btnSave_Click"/>
             <Button x:Name="btnOpen" Content="Отмена" FontSize="16" Margin="10" Click="btnOpen_Click"/>

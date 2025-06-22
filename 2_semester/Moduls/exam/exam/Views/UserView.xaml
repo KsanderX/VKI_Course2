@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:exam.Views"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="UserView" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="350" MinHeight="350"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,0,0,23">
+            <StackPanel Grid.Row="0" Margin="0,0,-90,0" Width="970" >
+                <ListView ItemsSource="{Binding Requests}" SelectedValuePath="Id" FontSize="18" SelectedItem="{Binding SelectedRequest}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="10">
+                                <TextBlock Text="{Binding Name, StringFormat= 'Имя: {0}'}"/>
+                                <TextBlock Text="{Binding Description, StringFormat= 'Описание: {0}'}"/>
+                                <TextBlock Text="{Binding Status, StringFormat= 'Статус: {0}'}"/>
+                                <TextBlock Text="{Binding User.Name, StringFormat= 'Имя: {0}'}"/>
+                                <TextBlock Text="{Binding CreatedAt, StringFormat= 'Дата: {0:R}'}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </ScrollViewer>
+        <StackPanel Grid.Row="1">            
+            <Button x:Name="btnExit" Width="130" Height="40" Content="Выйти" FontSize="18" Margin="10" Click="btnExit_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

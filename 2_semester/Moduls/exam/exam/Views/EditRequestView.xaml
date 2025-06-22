@@ -1,0 +1,30 @@
+﻿<Window x:Class="exam.Views.EditRequestView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exam.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="EditRequestView" Height="555" Width="800">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" >
+            
+        <StackPanel Margin="35" Height="496" Width="300">
+            
+            <Label Content="Имя" FontSize="18"/>
+                <TextBox Text="{Binding SelectedRequest.Name}" FontSize="18" Height="30" Margin="10"/>
+            <Label Content="Описание" FontSize="18"/>
+            <TextBox Text="{Binding SelectedRequest.Description}" FontSize="18" Height="30" Margin="10"/>
+            <Label Content="Пользователь" FontSize="18"/>
+            <ComboBox ItemsSource="{Binding Users}" SelectedValuePath="Id" DisplayMemberPath="Name" SelectedValue="{Binding SelectedRequest.UserId}" FontSize="18" Height="30" Margin="10" />
+            <Label Content="Статус" FontSize="18"/>
+            <ComboBox SelectedValue="{Binding SelectedRequest.Status}" x:Name="cbStatus" FontSize="18" Height="30" Margin="10" IsReadOnly="True"/>
+
+            <Button x:Name="btnSave" Content="Сохранить" Margin="10" FontSize="18" Click="btnSave_Click"/>
+            <Button x:Name="btnDeleteUser" Content="Списать пользователя" Margin="10" FontSize="18" Click="btnDeleteUser_Click"/>
+            <Button x:Name="btnBack" Content="Списать пользователя" Margin="10" FontSize="18" />
+        </StackPanel>
+      </ScrollViewer>
+    </Grid>
+</Window>

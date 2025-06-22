@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:exam.Views"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="AdminView" Height="450" Width="800">
+        Title="AdminView" Height="450" Width="550">
     <Grid>
-        <StackPanel>
+        <StackPanel Margin="0,0,10,0">
             <Label Content="Создание заявки" FontFamily="Arial Black" FontSize="20" HorizontalAlignment="Center" />
         </StackPanel>
         <StackPanel Margin="35" Height="400" Width="300">
@@ -20,6 +20,7 @@
             <ComboBox DisplayMemberPath="Name" SelectedValuePath="Id" SelectedItem="{Binding SelectedUser}" ItemsSource="{Binding Users}" FontSize="18" Height="30" Margin="10"/>
 
             <Button x:Name="btnAddRequest" Content="Создать заявку" FontSize="18" Margin="10" Click="btnAddRequest_Click"/>
+            <Button x:Name="btnBack" Content="Отмена" FontSize="18" Margin="10"  Click="btnBack_Click"/>
 
         </StackPanel>
     </Grid>

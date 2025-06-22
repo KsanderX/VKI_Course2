@@ -14,8 +14,8 @@ namespace exam.Models
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer("Data Source=PC_SANYA;Initial Catalog=Exam;Integrated Security=True;Trust Server Certificate=True");
-            optionsBuilder.UseSqlite("Data Source=exam.db;");
+            optionsBuilder.UseSqlServer("Data Source=PC_SANYA;Initial Catalog=Exam;Integrated Security=True;Trust Server Certificate=True");
+            //optionsBuilder.UseSqlite("Data Source=exam.db;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:exam.Views"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="AuthorizateView" Height="450" Width="800">
-    <Grid>
+        Title="AuthorizateView" Height="450" Width="550">
+    <Grid Margin="0,0,10,0">
         <StackPanel Height="400" Width="350">
             <Label Content="Авторизация" FontSize="22" FontFamily="Arial" HorizontalAlignment="Center"/>
             <Label Content="Логин" FontSize="16" Margin="10"/>

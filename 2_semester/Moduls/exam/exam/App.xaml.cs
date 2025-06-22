@@ -24,7 +24,12 @@ namespace exam
 
             services.AddTransient<AuthorizateView>();
             services.AddTransient<RegisterView>();
+
             services.AddTransient<RequestAdminView>();
+            services.AddTransient<RequestAdminViewModel>();
+
+            services.AddTransient<EditRequestView>();
+            services.AddTransient<EditRequestViewModel>();
 
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IRequestService, RequestService>();
