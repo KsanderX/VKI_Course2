@@ -87,7 +87,7 @@ namespace Wedding_Agency.Views
                     selected.IdContract
                 );
                 editWindow.ShowDialog();
-                LoadContracts();
+                //LoadContracts();
             }
             else
             {
