@@ -25,14 +25,14 @@ namespace exam
             services.AddTransient<AuthorizateView>();
             services.AddTransient<RegisterView>();
 
-            services.AddTransient<RequestAdminView>();
-            services.AddTransient<RequestAdminViewModel>();
+            services.AddTransient<CarAdminView>();
+            services.AddTransient<CarAdminViewModel>();
 
-            services.AddTransient<EditRequestView>();
-            services.AddTransient<EditRequestViewModel>();
+            services.AddTransient<EditCarView>();
+            services.AddTransient<EditCarViewModel>();
 
             services.AddScoped<IAuthService, AuthService>();
-            services.AddScoped<IRequestService, RequestService>();
+            services.AddScoped<ICarService, CarService>();
 
             _serviceProvider = services.BuildServiceProvider();
         }

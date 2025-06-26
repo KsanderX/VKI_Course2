@@ -1,6 +1,6 @@
-﻿using exam.Models;
+﻿using Examination.Models;
 
-namespace exam.Services
+namespace Examination.Services
 {
     public interface IAuthService
     {

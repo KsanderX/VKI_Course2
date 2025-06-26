@@ -1,6 +1,4 @@
-﻿using System.Data;
-
-namespace exam.Models
+﻿namespace Examination.Models
 {
     public class User
     {
@@ -11,7 +9,9 @@ namespace exam.Models
         public string Surname { get; set; }
         public string Name { get; set; }
         public string Phone { get; set; }
-        public Role Roles { get; set; }
+        public Roles Roles { get; set; }
         public int RoleId { get; set; }
+        public Car Cars {  get; set; } 
+        public int CarId { get; set; }
     }
 }

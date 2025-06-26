@@ -1,12 +1,8 @@
 ﻿using System.Windows;
 using exam.Services;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 namespace exam.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для RegisterView.xaml
-    /// </summary>
     public partial class RegisterView : Window
     {
         private IAuthService _authService;
@@ -20,12 +16,14 @@ namespace exam.Views
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             string name = tbName.Text;
+            string surname = tbSurName.Text;
+            string phoneNumber = tbPhoneNumber.Text;
             string login = tbLogin.Text;
             string password = tbPass.Text;
             string repeatPassword = tbRepeatPass.Text;
 
-            if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(password)
-                || string.IsNullOrWhiteSpace(repeatPassword))
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(surname) || string.IsNullOrWhiteSpace(phoneNumber)
+                || (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(repeatPassword)))
             {
                 MessageBox.Show("Заполните поля!");
             }
@@ -46,7 +44,7 @@ namespace exam.Views
                 else
                 {
                     MessageBox.Show("Пользователь зарегестрирован");
-                    _authService.Register(name, login, password);
+                    _authService.Register(name, surname, phoneNumber, login, password);
                     var authWin = _serviceProvider.GetRequiredService<AuthorizateView>();
                     this.Close();
                     authWin.ShowDialog();
@@ -54,7 +52,7 @@ namespace exam.Views
             }
         }
 
-        private void btnOpen_Click(object sender, RoutedEventArgs e)
+        private void btnBack_Click(object sender, RoutedEventArgs e)
         {
             var authWin = _serviceProvider.GetRequiredService<AuthorizateView>();
             this.Close();

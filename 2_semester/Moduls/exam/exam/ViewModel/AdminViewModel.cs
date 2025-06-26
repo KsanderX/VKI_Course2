@@ -5,15 +5,17 @@ namespace exam.ViewModel
 {
     public class AdminViewModel
     {
-        private readonly IRequestService _requestService;
+        private readonly ICarService _carService;
+        public string VIN {  get; set; }
         public string Name { get; set; }
+        public string Type { get; set; }
         public string Description { get; set; }
         public List<User> Users { get; set; }
         public User SelectedUser { get; set; }
-        public AdminViewModel(IRequestService request)
+        public AdminViewModel(ICarService cars)
         {
-            _requestService = request;
-            Users = _requestService.GetAllUsers();
+            _carService = cars;
+            Users = _carService.GetAllUsers();
         }
     }
 }

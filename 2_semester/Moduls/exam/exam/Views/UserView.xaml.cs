@@ -4,9 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace exam.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для UserView.xaml
-    /// </summary>
     public partial class UserView : Window
     {
         private IServiceProvider _serviceProvider;

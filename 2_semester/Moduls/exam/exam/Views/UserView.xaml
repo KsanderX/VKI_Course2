@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,0,0,23">
             <StackPanel Grid.Row="0" Margin="0,0,-90,0" Width="970" >
-                <ListView ItemsSource="{Binding Requests}" SelectedValuePath="Id" FontSize="18" SelectedItem="{Binding SelectedRequest}">
+                <ListView ItemsSource="{Binding Cars}" SelectedValuePath="Id" FontSize="18" SelectedItem="{Binding SelectedCar}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Margin="10">

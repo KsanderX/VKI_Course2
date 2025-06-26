@@ -12,20 +12,22 @@ namespace exam.Views
     public partial class AdminView : Window
     {
         private IServiceProvider _service;
-        private IRequestService _requestService;
-        public AdminView(IServiceProvider service, IRequestService request)
+        private ICarService _carService;
+        public AdminView(IServiceProvider service, ICarService carService)
         {
             InitializeComponent();
             _service = service;
-            _requestService = request;
+            _carService = carService;
             this.DataContext = _service.GetRequiredService<AdminViewModel>();
         }
 
-        private void btnAddRequest_Click(object sender, RoutedEventArgs e)
+        private void btnAddCar_Click(object sender, RoutedEventArgs e)
         {
             var myAdminViewModel = this.DataContext as AdminViewModel;
 
+            string vin = myAdminViewModel.VIN;
             string name = myAdminViewModel.Name;
+            string type = myAdminViewModel.Type;
             string description = myAdminViewModel.Description;
             User user = myAdminViewModel.SelectedUser;
 
@@ -35,17 +37,18 @@ namespace exam.Views
             }
             else
             {
-                Request request = new Request()
+                Car car = new Car()
                 {
+                    VIN = vin,
                     Name = name,
+                    Type = type,
                     Description = description,
                     UserId = user.Id,
-                    Status = RequestStatus.InProgress,
-                    CreatedAt = DateTime.Now
+                    Status = CarStatus.InStock                    
                 };
-                _requestService.AddRequest(request);
+                _carService.AddCar(car);
                 MessageBox.Show("Заявка добавлена!");
-                var questsView = _service.GetRequiredService<RequestAdminView>();
+                var questsView = _service.GetRequiredService<CarAdminView>();
                 this.Close();
                 questsView.ShowDialog();
             }
@@ -53,7 +56,7 @@ namespace exam.Views
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
-            var back = _service.GetRequiredService<RequestAdminView>();
+            var back = _service.GetRequiredService<CarAdminView>();
             this.Close();
             back.ShowDialog();
         }

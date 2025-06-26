@@ -6,13 +6,13 @@ namespace exam.ViewModel
     public class UserViewModel
     {
         private IAuthService _authService;
-        private IRequestService _requestService;
-       public List<Request> Requests { get; set; }
-        public UserViewModel(IRequestService service, IAuthService authService)
+        private ICarService _carService;
+       public List<Car> Cars { get; set; }
+        public UserViewModel(ICarService service, IAuthService authService)
         {
-            _requestService = service;
+            _carService = service;
             _authService = authService;
-            Requests = _requestService.GetRequestCurrentUser(_authService.CurrentUser);
+            Cars = _carService.GetCarCurrentUser(_authService.CurrentUser);
         }
     }
 }

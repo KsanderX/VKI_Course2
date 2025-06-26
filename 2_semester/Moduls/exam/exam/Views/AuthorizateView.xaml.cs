@@ -36,7 +36,7 @@ namespace exam.Views
                 }
                 else
                 {
-                    var adminView = _serviceProvider.GetRequiredService<RequestAdminView>();
+                    var adminView = _serviceProvider.GetRequiredService<CarAdminView>();
                     this.Close();
                     adminView.ShowDialog();
                 }
